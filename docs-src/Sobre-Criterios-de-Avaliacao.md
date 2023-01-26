@@ -22,7 +22,7 @@ A nota final de **prova** (atingido atingido o critério) será a média da soma
 | A1               | 30                  | 10                  | 40                  | Álgebra booleana, dados digitais |
 | A2               | 40                  | 10                  | 50                  | Dados digitais, lógica combinacional, ULA, Lógica sequencial |
 | A3               | 20                  | 35                  | 55                  | Assembly, CPU |
-| A4               | 10                  | 45                  | 55                  | Assembler, máquina virtual, Álgebra booleanas |
+| A4               | 10                  | 45                  | 55                  | Assembler, máquina virtual, Álgebra booleana |
 | Total            | 100                 | 100                 | 200                 | |
 
 
@@ -35,7 +35,7 @@ O projeto é composto por duas notas: `Grupo` e `Individual` sendo que cada uma 
 
 A rubrica de nota `Grupo` está apresentada na página de cada projeto.
 
-As rubricas da nota `Individual` está na página [Sobre-Rubricas/](https://insper.github.io/Z01.1/Sobre-Rubricas/).
+A rubrica da nota `Individual` está na página [Sobre-Rubricas](https://insper.github.io/Z01.1/Sobre-Rubricas/).
 
 A nota final de cada APS será calculada da seguinte forma:
 
@@ -50,17 +50,17 @@ A nota final de cada APS será calculada da seguinte forma:
 
 Exemplos: 
 
-1. Se agluém obter: `Grupo`A+ e `Individual`=A, nota da APS será A+
-2. Se agluém obter: `Grupo`A+ e `Individual`=B, nota da APS será A
-3. Se agluém obter: `Grupo`A+ e `Individual`=C, nota da APS será B+
-4. Se agluém obter: `Grupo`A+ e `Individual`=D, nota da APS será D
-5. Se agluém obter: `Grupo`C+ e `Individual`=B, nota da APS será C
+1. Se agluém obter: `Grupo` = A+ e `Individual` = A, nota da APS será A+
+2. Se agluém obter: `Grupo` = A+ e `Individual` = B, nota da APS será A
+3. Se agluém obter: `Grupo` = A+ e `Individual` = C, nota da APS será B+
+4. Se agluém obter: `Grupo` = A+ e `Individual` = D, nota da APS será D
+5. Se agluém obter: `Grupo` = C+ e `Individual` = B, nota da APS será C
 
 
-A nota final de **projeto** (quando atingindo o critério) será a média de todas as notas das APSs.
+A nota final de **Projeto** (quando atingindo o critério) será a média de todas as notas das APSs.
 
 
-## Nota final
+## Nota final da Disciplina
 
 A nota final será composta pela média das notas de Projeto e da Prova:
 
