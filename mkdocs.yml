@@ -85,7 +85,7 @@ nav:
   - 'Sobre-Rubricas.md'
 
 - 'Util-Aulas.md'
-- '21a/Avaliacoes.md'
+- 'Avaliacoes.md'
 
 - 'Projetos':
   - 'A-Algebra-Transistores.md'
@@ -99,8 +99,8 @@ nav:
       - 'cpu-Testando.md'
   - 'assembler-Projeto.md'
   - 'vm-Projeto.md'
-  - 'J-VMtranslator-Projeto.md'
-  - 'X-Processadores-Projeto.md'
+  #- 'J-VMtranslator-Projeto.md'
+  #- 'X-Processadores-Projeto.md'
 
 - Labs:
   - 'A-Transistores-Lab-1-22.md'
@@ -134,11 +134,11 @@ nav:
 
 - 'Teoria':
   - 'commum-content/teoria/Teoria-Dados.md'
+  - 'commum-content/teoria/Teoria-Aritmetica-Binaria.md'
   - 'commum-content/teoria/Teoria-Algebra-Booleana.md'
   - 'commum-content/teoria/Teoria-CMOS.md'
   - 'commum-content/teoria/Teoria-RTL.md'
   - 'commum-content/teoria/Teoria-Componentes.md'
-  - 'commum-content/teoria/Teoria-Aritmetica-Binaria.md'
   - 'commum-content/teoria/Teoria-Aritmetica-Binaria-HW.md'
   - 'commum-content/teoria/Teoria-ULA.md'
   - 'commum-content/teoria/Teoria-Logica-Sequencial.md'

@@ -8,7 +8,7 @@ Os alunos devem:
 
 1. Ter acumulado no mínimo 50 pontos de `HW` (Álgebra booleana, lógica combinacional, unidade lógica aritmética, lógica sequencial, CPU) nas provas
 1. Ter acumulado no mínimo 50 pontos de `SW` (Dados digitais, assembly, assembler, máquina virtual, VM translator) nas provas
-1. Ter no mínimo conceito C na média de todos os Projetos nos quesitos `Individual` e `Grupo` 
+1. Ter no mínimo conceito C na média de todos os Projetos 
 1. Ter no máximo duas notas inferiores a C na avaliação individual e uma nota inferior a C na avaliação coletiva dos Projetos
 
 ## Provas
@@ -20,27 +20,49 @@ A nota final de **prova** (atingido atingido o critério) será a média da soma
 | Provas           | Pontuação HW        | Pontuação SW        |  Pontuação Total    | Conteúdo            |
 |------------------|---------------------|---------------------|---------------------|---------------------|
 | A1               | 30                  | 10                  | 40                  | Álgebra booleana, dados digitais |
-| A2               | 40                  | 10                  | 50                  | Dados digitais, lógica combinacional, ULA  |
-| A3               | 20                  | 35                  | 55                  | Lógica sequencial, Assembly |
-| A4               | 10                  | 45                  | 55                  | CPU, Assembler, máquina virtual |
+| A2               | 40                  | 10                  | 50                  | Dados digitais, lógica combinacional, ULA, Lógica sequencial |
+| A3               | 20                  | 35                  | 55                  | Assembly, CPU |
+| A4               | 10                  | 45                  | 55                  | Assembler, máquina virtual, Álgebra booleanas |
 | Total            | 100                 | 100                 | 200                 | |
+
+
+Haverá também um projeto individual extra optativo (a ser entregue até a AF) que fornece **10 pontos** extras de **Hardware** e **10 pontos extras** de **Software**. 
+
 
 ## Projetos (APS)
 
 O projeto é composto por duas notas: `Grupo` e `Individual` sendo que cada uma segue uma rubrica diferente e avalia objetivos diferentes do curso.
 
-A nota final de **projeto** (quando atingindo o critério) será a média de todas as entregas, aplicado a regra a baixo.
+A rubrica de nota `Grupo` está apresentada na página de cada projeto.
 
-| Contribuição individual menor que C | Nota final          |
-|-------------------------------------|---------------------|
-| nenhuma                             | Média               |
-| uma                                 | Média - 1 conceito  |
-| duas                                | Média - 2 conceitos |
-| três ou mais                        | Fora do critério    |
+As rubricas da nota `Individual` está na página [Sobre-Rubricas/](https://insper.github.io/Z01.1/Sobre-Rubricas/).
+
+A nota final de cada APS será calculada da seguinte forma:
+
+| Nota`Individual` | Nota final da APS         |
+|------------------|---------------------------|
+| A                | Nota  `Grupo`             |
+| B                | Nota  `Grupo` - 1 conceito  |
+| C                | Nota  `Grupo` - 2 conceitos |
+| D                | D                         |
+| I                | I                         |
+
+
+Exemplos: 
+
+1. Se agluém obter: `Grupo`A+ e `Individual`=A, nota da APS será A+
+2. Se agluém obter: `Grupo`A+ e `Individual`=B, nota da APS será A
+3. Se agluém obter: `Grupo`A+ e `Individual`=C, nota da APS será B+
+4. Se agluém obter: `Grupo`A+ e `Individual`=D, nota da APS será D
+5. Se agluém obter: `Grupo`C+ e `Individual`=B, nota da APS será C
+
+
+A nota final de **projeto** (quando atingindo o critério) será a média de todas as notas das APSs.
+
 
 ## Nota final
 
-A nota final será composta pela nota de Projeto e a nota da Prova:
+A nota final será composta pela média das notas de Projeto e da Prova:
 
 - `Nota Final = mean([Prova, Projeto])`
 
