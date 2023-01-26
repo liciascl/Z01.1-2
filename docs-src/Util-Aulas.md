@@ -115,7 +115,7 @@ Segunda Avaliação Individual - Av2
     - [Lab 2: GitHub](/Z01.1/A-Ambiente-Lab-1)
     - [Lab 3: GitHub](/Z01.1/A-Ambiente-Lab-2)
 
--->
+
 
 ## Av4 - PF - 02/12
 
@@ -358,12 +358,13 @@ Inicio do projeto B - Lógica Combinacional, começo do uso de VHDL.
     - [Lab 3: GitHub](/Z01.1/A-Ambiente-Lab-2)
     - [Lab 4: FPGA - VHDL](https://insper.github.io/Z01.1/LogiComb-Lab-1)
     
+-->
 
-## Aula 31/08
+## Aula 01/03
 
 Primeira Avaliação Individual - Av1
 
-## Aula 26/08
+## Aula 24/02
 
 Trabalhar com transistores e circuitos integrados.
 
@@ -377,29 +378,44 @@ Trabalhar com transistores e circuitos integrados.
 1. Laboratório (1h20):
     - [Lab 1: Transistores / CI](https://insper.github.io/Z01.1/A-Transistores-Lab-1/)
     
-    
-## Aula 24/08
+
+## Aula 17/02
 
 Estudar lógica booleana e praticar
 
 | Estudo prévio                                                                      |
 |------------------------------------------------------------------------------------|
-| [Teoria Álgebra Booleana](https://insper.github.io/Z01.1/Teoria-Algebra-Booleana/) |
+| [Teoria Álgebra Booleana](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Algebra-Booleana/) |
 
 1. Expositiva/ Dúvidas  (45 min)
 
 1. Handout/ Exercício (1h15):
     - [Álgebra Booleana - 1](/Z01.1/Exercicio-Algebra-Booleana-1)
     - [Álgebra Booleana - 2](/Z01.1/Exercicio-Algebra-Booleana-2)
+
+
+## Aula 15/02
+
+Estudar lógica booleana e praticar
+
+| Estudo prévio                                                                      |
+|------------------------------------------------------------------------------------|
+| [Aritmética Binária](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Aritmetica-Binaria/) |
+
+1. Expositiva/ Dúvidas  (1h00)
+
+1. Handout/ Exercício (1h00):
+    - [Aritmética Binária - **Fazer apenas ex. 1**](https://github.com/Insper/Z01.1/blob/main/Exercicios/Exercicio-Aritmetica-Booleana.pdf)
+
     
     
-## Aula 19/08
+## Aula 10/02
 
 Dúvidas sobre dados digitais, uma breve visão geral sobre git e github.
 
 | Estudo prévio                                |
 |----------------------------------------------|
-| [Dados digitais](https://insper.github.io/Z01.1/Teoria-Dados/) |
+| [Dados digitais](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Dados/) |
 
 1. Expositiva/ Dúvidas (0h40):
     - [Slides](https://github.com/Insper/Z01.1/blob/main/Aulas/02-DadosDigitais.pdf)         
@@ -410,16 +426,15 @@ Dúvidas sobre dados digitais, uma breve visão geral sobre git e github.
     - [Aritmetica Booleana - Ex. 1](https://github.com/Insper/Z01.1/blob/main/Exercicios/Exercicio-Aritmetica-Booleana.pdf)
 
 
-## Aula 17/08
+## Aula 08/02
 
-Aula de apresentação da matéria; visão geral do que vai ser feito; criação de grupos.
+Aula de apresentação da matéria; visão geral do que vai ser feito.
 
 1. Slides (1h00):
     - [Slide](https://github.com/Insper/Z01.1/blob/main/Aulas/01-OrganizacaoDeComputadores.pdf)
     - [Prezi](https://prezi.com/view/InQMPs4wjxMtznUGlW6L/)
 
 1. Handout/ Estudo/ Exercício (1h00):
-    - Montar grupos
     - Mural
 
 <!--
