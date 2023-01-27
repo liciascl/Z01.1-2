@@ -105,7 +105,7 @@ nav:
 - Labs:
   - 'Labs/Lab1-A-Transistores.md'
   - 'Lab 2: Github':
-    - 'Labs/Lab2.1-Ambiente.md
+    - 'Labs/Lab2.1-Ambiente.md'
     - 'Labs/Lab2.2-Ambiente.md'
   - 'Labs/Lab3-LogiComb-FPGA.md'
   - 'Labs/Lab4-LogiComb.md'
