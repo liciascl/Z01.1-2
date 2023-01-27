@@ -4,7 +4,7 @@
 |--------------|
 | 17/11 - Quinta |
 
-![](figs/G-CPU/sistema-cpu.svg)
+![](../figs/G-CPU/sistema-cpu.svg)
 
 Nesse projeto cada grupo terá que implementar sua própria CPU do Z01. 
 

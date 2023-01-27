@@ -2,12 +2,12 @@
 
 | Data da entrega| 
 |----------------|
-| Quinta - 15/09 |
+| Quinta - 09/03 |
 
-![](figs/LogiComb/sistema-comb.svg)
+![](../figs/LogiComb/sistema-comb.svg)
 
 !!! tip "Scrum Master"
-    Você é `Scrum Master` e não sabe por onde começar? De uma olhada nessas dicas: [Vixi! Sou Scrum Master](https://insper.github.io/Z01.1/Util-vixi-sou-scrum/)
+    Você é `Scrum Master` e não sabe por onde começar? De uma olhada nessas dicas: [Vixi! Sou Scrum Master](https://insper.github.io/Z01.1/Util/Util-vixi-sou-scrum/)
 
 Esse projeto tem como objetivo trabalhar com portas lógicas e sistemas digitais combinacionais (sem um clock) em FPGA e VHDL. Os elementos lógicos desenvolvidos nessa etapa serão utilizados como elementos básicos para a construção do computador. 
 
@@ -164,15 +164,15 @@ Deve-se implementar os seguintes circuitos combinacionais:
 
 - Circuito lógico 
     - **Arquivo** : `circuito.vhd`
-    - **Descrição**: Primeira questão da lista de exercícios [Álgebra Booleana 2](https://insper.github.io/Z01.1/Exercicio-Algebra-Booleana-2/)
+    - **Descrição**: Primeira questão da lista de exercícios [Álgebra Booleana 2](https://insper.github.io/Z01.1/Exercicios/Exercicio-Algebra-Booleana-2/)
 
 - Detector de moedas
     - **Arquivo** : `detectorDeMoedas.vhd`
-    - **Descrição**: Questão do detector de moedas da lista de exercícios [Álgebra Booleana 2](https://insper.github.io/Z01.1/Exercicio-Algebra-Booleana-2/)
+    - **Descrição**: Questão do detector de moedas da lista de exercícios [Álgebra Booleana 2](https://insper.github.io/Z01.1/Exercicios/Exercicio-Algebra-Booleana-2/)
 
 - Impressora
     - **Arquivo** : `impressora.vhd`
-    - **Descrição**: Questão da impressora da lista de exercícios [Álgebra Booleana 2](https://insper.github.io/Z01.1/Exercicio-Algebra-Booleana-2/)
+    - **Descrição**: Questão da impressora da lista de exercícios [Álgebra Booleana 2](https://insper.github.io/Z01.1/Exercicios/Exercicio-Algebra-Booleana-2/)
 
 - Porta xor de 3 entradas
     - **Arquivo** : `xor3.vhd`
@@ -180,10 +180,10 @@ Deve-se implementar os seguintes circuitos combinacionais:
     
 - Display de 7s
     - **Arquivo**: `sevenSeg.vhd'
-    - **Descrição**: Questão do display de sete segmentos da lista de exercícios [Álgebra Booleana 2](https://insper.github.io/Z01.1/Exercicio-Algebra-Booleana-2/)
+    - **Descrição**: Questão do display de sete segmentos da lista de exercícios [Álgebra Booleana 2](https://insper.github.io/Z01.1/Exercicios/Exercicio-Algebra-Booleana-2/)
 
 !!! tip "Display 7s"
-    1. Esse item é uma continuação do que foi realizado no [Lab4](/LogiComb-Lab-1/), onde vocês tiveram que exibir um valor constante no display de 7s. 
+    1. Esse item é uma continuação do que foi realizado no [Lab3](../Labs/Lab3-LogiComb-FPGA/), onde vocês tiveram que exibir um valor constante no display de 7s. 
     1. Para cada segmento do display, vocês devem encontrar uma equação booleana que o represente, e então implementar em VHDL e testar na FPGA.
 <!--
 - O grupo deve apresentar um vídeo da FPGA mostrando nos display de 7 segmentos o seguinte:
@@ -221,17 +221,19 @@ Para atingir os objetivos A e B, deve-se antes atingir o C.
     Sugerimos que vocês reutilizem o módulo `sevenSeg.vhd`, 
     para isso devem utilizar uma recurso do VHDL chamado de `port map`.
     
-    - [VHDL/port map](/Z01.1/VHDL-port-map/)    
+    - [VHDL/port map](/Z01.1/VHDL/VHDL-port-map/)    
     
 
 ### Individual
 
 As rubricas a serem seguidas serão comuns a todos os projeto e está descrito no link:
 
-- [Rubricas Scrum e Desenvolvedor](/Z01.1/Sobre-Rubricas/)
+- [Rubricas Scrum e Desenvolvedor](/Z01.1/Home/Sobre-Rubricas/)
 
 ### Formulários
 
+<!--
 - [Scrum Master](https://forms.gle/BFwAiV1c716aJrPXA)
 - [Desenvolvedores](https://forms.gle/NnHDz7UVb63zwpm86)
+-->
 
