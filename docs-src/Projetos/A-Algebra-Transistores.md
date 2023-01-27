@@ -2,7 +2,7 @@
 
 | Data da entrega| 
 |----------------|
-| Sexta - 02/09 |
+| Quarta - 01/03 |
 
 Nesse projeto iremos utilizar a álgebra booleana para obter as funções lógicas de um sistema as quais deverão ser implementadas utilizando transistores.
 
@@ -10,7 +10,7 @@ Esse projeto deverá ser realizado em duplas ou trios e os arquivos devem ser en
 
 Queremos controlar o robô asprirador de pó da figura a seguir:
 
-![](figs/A-Transistores/robo.png){width=400}
+![](../figs/A-Transistores/robo.png){width=400}
 
 onde y1 e y2 são sinais de saída de 2 bits cada para os motores da esquerda e direita e x1, x2 e x3 são sensores para detectar a colisão do robô.
 

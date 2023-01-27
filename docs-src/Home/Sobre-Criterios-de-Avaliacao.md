@@ -35,7 +35,7 @@ O projeto é composto por duas notas: `Grupo` e `Individual` sendo que cada uma 
 
 A rubrica de nota `Grupo` está apresentada na página de cada projeto.
 
-A rubrica da nota `Individual` está na página [Sobre-Rubricas](https://insper.github.io/Z01.1/Sobre-Rubricas/).
+A rubrica da nota `Individual` está na página [Sobre-Rubricas](https://insper.github.io/Z01.1/Home/Sobre-Rubricas/).
 
 A nota final de cada APS será calculada da seguinte forma:
 

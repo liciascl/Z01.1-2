@@ -370,13 +370,13 @@ Trabalhar com transistores e circuitos integrados.
 
 | Estudo prévio                                            |
 |----------------------------------------------------------|
-| [Teoria RTL](https://insper.github.io/Z01.1/Teoria-RTL/) |
-| [Teoria CMOS](https://insper.github.io/Z01.1/Teoria-CMOS/) |
+| [Teoria RTL](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-RTL/) |
+| [Teoria CMOS](https://insper.github.io/Z01.1/Teoria/Teoria-CMOS/) |
 
 1. Expositiva/ Dúvidas  (0h40):
 
 1. Laboratório (1h20):
-    - [Lab 1: Transistores / CI](https://insper.github.io/Z01.1/A-Transistores-Lab-1/)
+    - [Lab 1: Transistores / CI](https://insper.github.io/Z01.1/Labs/Lab1-A-Transistores/)
     
 
 ## Aula 17/02
@@ -390,8 +390,8 @@ Estudar lógica booleana e praticar
 1. Expositiva/ Dúvidas  (45 min)
 
 1. Handout/ Exercício (1h15):
-    - [Álgebra Booleana - 1](/Z01.1/Exercicio-Algebra-Booleana-1)
-    - [Álgebra Booleana - 2](/Z01.1/Exercicio-Algebra-Booleana-2)
+    - [Álgebra Booleana - 1](/Z01.1/Exercicios/Exercicio-Algebra-Booleana-1)
+    - [Álgebra Booleana - 2](/Z01.1/Exercicios/Exercicio-Algebra-Booleana-2)
 
 
 ## Aula 15/02
@@ -422,7 +422,7 @@ Dúvidas sobre dados digitais, uma breve visão geral sobre git e github.
 
 1. Handout/ Exercício (1h20):
     - [Dados Digitais 1](https://github.com/Insper/Z01.1/blob/main/Exercicios/Dados_1.pdf)
-    - [Dados Digitais 2](https://insper.github.io/Z01.1/Exercicio-Dados-2/)
+    - [Dados Digitais 2](https://insper.github.io/Z01.1/Exercicios/Exercicio-Dados-2/)
     - [Aritmetica Booleana - Ex. 1](https://github.com/Insper/Z01.1/blob/main/Exercicios/Exercicio-Aritmetica-Booleana.pdf)
 
 
