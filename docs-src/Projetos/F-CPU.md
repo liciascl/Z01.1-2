@@ -2,7 +2,7 @@
 
 | Entrega      |
 |--------------|
-| 17/11 - Quinta |
+| Terça - 09/05 |
 
 ![](../figs/G-CPU/sistema-cpu.svg)
 
@@ -50,7 +50,7 @@ Todos os módulos vhdl (desde o projeto B) serão compilados e o `CPU.vhd` será
 !!! tip
     Temos uma página inteira detalhando como debugamos esse teste:
     
-    - [Testando CPU](https://insper.github.io/Z01.1/cpu-Testando/)
+    - [Testando CPU](https://insper.github.io/Z01.1/Projetos/F-CPU-Testando/)
 
 ### Actions
 
@@ -114,11 +114,11 @@ Os módulos estão listados de maneira Top - Down
 
 ---------------------------
 
-![MemoryIo.vhd](figs/G-CPU/memoryIO.png)
+![MemoryIo.vhd](../figs/G-CPU/memoryIO.png)
 
 ---------------------------
 
-![ControlUnit.vhd](figs/G-CPU/controlUnit.svg){width=400}
+![ControlUnit.vhd](../figs/G-CPU/controlUnit.svg){width=400}
 
 ---------------------------
 
@@ -135,19 +135,20 @@ Os módulos estão listados de maneira Top - Down
 |          |                                                                                    |
 | D        |  Ao menos um módulo não está feito e não passa no testes.                          |
 |          |                                                                                    |
-| C        |  Construiu com os módulos do grupo o seu próprio computador                        |
+| C+       |  Construiu com os módulos do grupo o seu próprio computador                        |
 |          |  Todos os módulos sendo testados no Actions.                                       |
 |          |  Todos os módulos passam nos testes.                                               |
 |          |                                                                                    |
-| B        |  Adiciona um novo registrador a CPU  (`%S`)                                        |
+| B+       |  Adiciona um novo registrador a CPU  (`%S`)                                        |
 |          |  Modifica os testes para testar esse novo recurso!                                 |
 |          |                                                                                    |
-| A        |  Possibilita realizar carregamento efetivo em %D (`leaw $5, %D`)                   |
+| A+       |  Possibilita realizar carregamento efetivo em %D (`leaw $5, %D`)                   |
 |          |  Modifica os testes para testar esse novo recurso!                                 |
 
 
 ### Formulários
-
+<!-- 
  - [Scrum Master](https://forms.gle/riMh8X9bkSmToxMCA)
- - [Desenvolvedores](https://forms.gle/NnHDz7UVb63zwpm86)
+ - [Desenvolvedores](https://forms.gle/NnHDz7UVb63zwpm86) -->
+ 
 

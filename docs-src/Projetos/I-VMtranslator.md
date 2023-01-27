@@ -8,7 +8,7 @@ Nesse projeto iremos criar o programa *VM translator* que é responsável por tr
 
 ## Instruções 
 
-As instruções técnicas referente ao projeto está no [lab 18](VMtranslator-Lab-1-old.md).
+As instruções técnicas referente ao projeto está no [Lab 18](/Z01.1/Labs/Lab18.1-VMtranslator.md/).
 
 ## Módulos a serem implementados
 
@@ -72,11 +72,11 @@ Cada integrante do grupo irá receber duas notas: uma referente ao desenvolvimen
 |          |                                           |
 | D        | - writeArithmetic OU writePushPop  |
 |          |                                           |
-| C        | - writeArithmetic E writePushPop           |
+| C+       | - writeArithmetic E writePushPop           |
 |          |                                           |
-| B        | - writeLabel, writeGoto, writeIf          |
+| B+       | - writeLabel, writeGoto, writeIf          |
 |          |                                           |
-| A        | - writeCall, writeReturn, writeFunction   |
+| A+       | - writeCall, writeReturn, writeFunction   |
 
 ## Para testar 
 

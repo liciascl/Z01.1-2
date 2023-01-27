@@ -1,8 +1,5 @@
 # Introdução
 
-!!! success "2020-2"
-    Material atualizado.
-
 | Estudando        |                                                                                                                                                                                                            |
 | ---------        | --                                                                                                                                                                                                         |
 | Leituras (extra) |                                                                                                                                                                                                            |
@@ -66,7 +63,7 @@ Um código em VHDL possui basicamente três partes:
     end rtl;
     ```
 
-![](figs/VHDL/bloco.png){width=400}
+![](../figs/VHDL/bloco.png){width=400}
 
 !!! tip "Comentários em VHDL"
     Comentários em VHDL são iniciados com dois traços: `--`. Exemplo:
@@ -87,7 +84,7 @@ Podemos pensar na entidade como o trecho de código que define o módulo como um
 
 No exemplo anterior, o módulo é chamado de `TopLevel` e possui uma entrada `a` e uma saída `b`. Tanto a entrada quanto a saída são do tipo `std_logic`. Cada porta tem a descrição de sua direção (`in`, `out`), como detalhado a seguir:
 
-![](figs/VHDL/entidade-descricao.png){width=800}
+![](../figs/VHDL/entidade-descricao.png){width=800}
 
 Uma entidade pode ter nenhuma ou 'infinitas' portas, para adicionarmos uma porta nova a uma entidade, basta adicionarmos uma nova linha com as três propriedades:
 
@@ -152,7 +149,7 @@ por ora.
     end entity;
 ```
 
-![](figs/VHDL/VHDL-basico-exe1.svg)
+![](../figs/VHDL/VHDL-basico-exe1.svg)
 
 - Módulo chamado MUX que possui 4 entradas na forma de um vetor (`I : in std_logic_vector(3 downto 0)`), um seletor de dois bits na forma de um vetor (`S`) e uma saída `q` na forma de um bit.
 
@@ -166,7 +163,7 @@ por ora.
     end entity;
 ```
 
-![](figs/VHDL/VHDL-basico-exe2.svg)
+![](../figs/VHDL/VHDL-basico-exe2.svg)
 
 !!! tip 
     Note que a entrada `I` foi declarada como sendo um vetor que começa em `3` e termina em `0`, possuindo no total 4 bits: `3`, `2`, `1`, `0`
@@ -176,7 +173,7 @@ por ora.
     - Uso de uma `/` no fio com a indicação da quantidade de bits
     - Uso de uma linha mais grossa, para indicar um vetor
     
-    ![](figs/VHDL/vector-bus.png){width=300}
+    ![](../figs/VHDL/vector-bus.png){width=300}
     
 - Entidade de uma ULA
 
@@ -198,7 +195,7 @@ end entity;
 
 ```
 
-![](figs/VHDL/VHDL-basico-exe3.png){width=400}
+![](../figs/VHDL/VHDL-basico-exe3.png){width=400}
 
 !!! note "nota"
     Note que a primeira linha declara duas portas com nome `x` e `y` com a mesma direção `in` e do tipo `std_logic_vector(15 downto 0)`. Isso é um atalho no VHDL e deve ser evitado. O ideal é reescrever essa linha como a seguir:
@@ -315,7 +312,7 @@ Sinais são declarados entre a palavra reservada `architecture` e o `begin` e se
 facilitar/ possibilitar o desenvolvimento de um sistema digital, eles só são visíveis
 dentro de uma entidade e servem como 'fios' internos de um módulo. 
 
-![](figs/VHDL/VHDL-basico-signals.svg){width=400}
+![](../figs/VHDL/VHDL-basico-signals.svg){width=400}
 
 `Sinais` são diferente de portas não possuem direção, e são declarados da seguinte maneira:
 

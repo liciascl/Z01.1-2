@@ -7,7 +7,7 @@
 -->
 
 !!! tip
-    Antes de seguir você deve ter lido a [Teoria/ULA](/Z01.1/Teoria-ULA/).
+    Antes de seguir você deve ter lido a [Teoria/ULA](/Z01.1/commum-content/teoria/Teoria-ULA/).
 
 O objetivo desse laboratório é o de trabalharmos com o controle dos sinais da ULA para entendermos as operações da unidade de processamento do nosso computador. Para isso iremos:
 

@@ -14,7 +14,7 @@ Ao final do laboratório você deverá:
 
 ## Antes de começar
 
-Toda vez que um novo projeto começar será necessário realizar algumas configurações no repositório do grupo, vocês devem seguir para o documento: [`Util/Começando novo Projeto`](https://insper.github.io/Z01.1/Util-Comecando-novo-projeto/) e depois voltar para esse lab.
+Toda vez que um novo projeto começar será necessário realizar algumas configurações no repositório do grupo, vocês devem seguir para o documento: [`Util/Começando novo Projeto`](https://insper.github.io/Z01.1/Util/Util-Comecando-novo-projeto/) e depois voltar para esse lab.
 
 !!! warning
     Não seguir sem realizar a etapa anterior.

@@ -11,7 +11,7 @@
 
 ## Começando
 
-Este lab está disponível em um novo repositório, para começarem trabalhar clonem o repositório para sua máquina, iremos trabalhar coma ele neste lab.
+Este lab está disponível em um novo repositório, para começarem trabalhar clonem o repositório para sua máquina, iremos trabalhar com ele neste lab.
 
 ```
 cd ~
@@ -26,7 +26,7 @@ Para entender como isso funciona vamos usar a ULA desenvolvida por vocês em uma
 
 Na CPU deste lab iremos trabalhar com o conceito de registrador acumulador, onde o resultado da ULA será sempre salvo em `REG_C`, consforme diagrama a seguir:
 
-![](figs/D-ULA/ula-aplicada.svg){width=600}
+![](../figs/D-ULA/ula-aplicada.svg){width=600}
 
 !!! note
     Registrador é o termo utilizado para uma unidade simples de memória

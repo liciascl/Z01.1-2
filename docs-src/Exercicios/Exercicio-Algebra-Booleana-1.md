@@ -1,6 +1,6 @@
 # Álgebra Booleana - 1
 
-[![](figs/pdf.png){width=25} Versão para impressão.](https://github.com/Insper/Z01.1/raw/main/Exercicios/Exercicio-Algebra-Booleana-1.pdf)
+[![](../figs/pdf.png){width=25} Versão para impressão.](https://github.com/Insper/Z01.1/raw/main/Exercicios/Exercicio-Algebra-Booleana-1.pdf)
 
 !!! tip ""
     [:pencil: Resolução](https://github.com/Insper/Z01.1/blob/master/Exercicios/Exercicio-Algebra-Booleana-1-resolucao.pdf)
@@ -9,7 +9,7 @@
 !!! exercise text short
     Indique o nome dos elementos lógicos a seguir:
 
-    ![](figs/Exercicios/AlgebraBooleana-componentes.png)
+    ![](../figs/Exercicios/AlgebraBooleana-componentes.png)
     
     !!! answer
         and, nand, or, nor, xor, not
@@ -202,7 +202,7 @@
 !!! exercise
     Encontre as equações para os mapas de Karnaugh a seguir:
 
-    ![](figs/Exercicios/AlgebraBooleana-MK-1.png)
+    ![](../figs/Exercicios/AlgebraBooleana-MK-1.png)
 
 ----------------
 
@@ -263,4 +263,4 @@
 
 ----------------
 
-Acabou? Os exercícios não param por aqui, tem a [parte 2!](/Z01.1/Exercicio-Algebra-Booleana-2)
+Acabou? Os exercícios não param por aqui, tem a [parte 2!](/Z01.1/Exercicios/Exercicio-Algebra-Booleana-2)

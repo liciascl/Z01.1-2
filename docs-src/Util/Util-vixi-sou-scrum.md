@@ -11,7 +11,7 @@
 
     3. Ler documentação do projeto
 
-    4. [Configurar Actions para executar teste do projeto](https://insper.github.io/Z01.1/Util-Dicas-Travis/)
+    4. [Configurar Actions para executar teste do projeto](https://insper.github.io/Z01.1/Util/Util-Dicas-Actions/)
 
     5. Criar issues no github (detalhes ao final dessa página)
         - Discuta com os seus colegas
@@ -39,7 +39,7 @@
 !!! tip
     Os issues devem ser todos os módulos a serem implementados do projeto.
 
-![](figs/LogiComb/C-3-issues.gif)
+![](../figs/LogiComb/C-3-issues.gif)
 
 - Você deve manter o quadro atualizado.
 

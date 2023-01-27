@@ -136,7 +136,7 @@ de 16 bits (`a` e `b`) e realizada uma `AND` bit a bit (`q(0) = a(0) and b(0) ..
 ## `Mux2Way.vhd`
 
 !!! tip "Teoria"
-    Para implementar esse módulo, leia a teoria em: [VHDL/Combinacional](/Z01.1/VHDL-Combinacional).
+    Para implementar esse módulo, leia a teoria em: [VHDL/Combinacional](/Z01.1/VHDL/VHDL-Combinacional).
 
 Faça a implementação do `Mux2Way.vhd`, usando os mesmos passos anteriores. 
 
@@ -148,4 +148,4 @@ Faça a implementação do `Mux2Way.vhd`, usando os mesmos passos anteriores.
 Agora é começar a trabalhar nos demais módulos do projeto, leia a descrição do Projeto B na página de projetos.
 
 !!! tip "Scrum Master"
-    Você é scrum? Então tem várias tarefas pela frente! Acesse a página [Util -> Vixi! Sou scrum master](/Z01.1/Util-vixi-sou-scrum/) e siga os passos lá!
+    Você é scrum? Então tem várias tarefas pela frente! Acesse a página [Util -> Vixi! Sou scrum master](/Z01.1/Util/Util-vixi-sou-scrum/) e siga os passos lá!

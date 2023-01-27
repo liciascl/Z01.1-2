@@ -39,7 +39,7 @@ void example(int a, int b){
 
 Note que essa função possui duas variáveis locais: `aux0` e `aux1`, que são visíveis somente dentro do escopo da função, essas variáveis são alocadas quando a função é chamada e desalocada quando a função retorna. Essas variáveis (`aux0`, `aux1`) servem como variáveis locais da função, e são salvas na stack, como a ilustração a seguir :
 
-![Local](figs/I-VM/lclArg.svg)
+![Local](../figs/I-VM/lclArg.svg)
 
 O exemplo em java anterior seria traduzido para a linguagem VM (de forma imediata) na seguinte maneira:
 
@@ -104,13 +104,13 @@ SP ->      |    |----\     |
 
 É a região da memória utilizada para armazenar variáveis compartilhadas entre o mesmo arquivo .vm, conforme figura a seguir :
 
-![Static](figs/I-VM/static.svg)
+![Static](../figs/I-VM/static.svg)
 
 A static não é visível entre diferentes arquivos .vm, deixando as variáveis limitadas a um escopo. O static será utilizado para armazenar as variáveis estáticas de uma determinada classe. Exemplo de acesso ao static :
 
 O exemplo a seguir demonstra duas classes (class1.vm e class2.vm) sendo utilizadas com os seus respectivos stacks. Nesse exemplo, a função main inicializa o static da classe 1 em : static[0] = 6, static[1] = 8 e o static ca classe 2 em : static[0] = 23, static[0] = 15.
 
-![Static example](figs/I-VM/static2.svg)
+![Static example](../figs/I-VM/static2.svg)
 
 Isso será bastante utilizado para fazer a implementação da estrutura a seguir :
 
@@ -167,7 +167,7 @@ public class corpoCeleste(){
 
 Esse exemplo aloca no Heap três endereços em locais diferentes para cada objeto criado do tipo corpoCeleste, porém a variável *pi*, que é estática é comum a todos os objetos criados a partir da mesma classe. A figura a seguir ilustra como essas variáveis seriam alocadas em memória.
 
-![Alocação de memórias para objetos - Heap](figs/I-VM/heap.svg)
+![Alocação de memórias para objetos - Heap](../figs/I-VM/heap.svg)
 
 ## This
 

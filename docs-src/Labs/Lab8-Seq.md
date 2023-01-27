@@ -1,7 +1,7 @@
 # Lab 8: Lógica Sequencial
 
 !!! warning "Antes de começar"
-    Toda vez que um novo projeto começar será necessário realizar algumas configurações no repositório do grupo, vocês devem seguir para o documento: [`Util/Começando novo Projeto`](https://insper.github.io/Z01.1/Util-Comecando-novo-projeto/) e depois voltar para esse lab.
+    Toda vez que um novo projeto começar será necessário realizar algumas configurações no repositório do grupo, vocês devem seguir para o documento: [`Util/Começando novo Projeto`](https://insper.github.io/Z01.1/Util/Util-Comecando-novo-projeto/) e depois voltar para esse lab.
 
     - Não seguir sem realizar a etapa anterior.
 
@@ -11,8 +11,8 @@ Estudo prévio necessário para realizar esse lab:
 
 | Leitura                    |
 |----------------------------|
-| [Lógica Sequencial](https://insper.github.io/Z01.1/Teoria-Logica-Sequencial/)  |
-| [VHDL/Sequencial](https://insper.github.io/Z01.1/VHDL-Sequencial/)             |
+| [Lógica Sequencial](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Logica-Sequencial/)  |
+| [VHDL/Sequencial](https://insper.github.io/Z01.1/VHDL/VHDL-Sequencial/)             |
 
 ## Implementando um FF tipo D
 
@@ -29,7 +29,7 @@ Estudo prévio necessário para realizar esse lab:
     - Esse já é um dos módulos da entrega do projeto!
 
 !!! warning 
-    Antes de seguir você deve fazer uma leitura rápida do material de lógica sequencial em VHDL [VHDL -> Sequencial](https://insper.github.io/Z01.1/VHDL-Sequencial/)
+    Antes de seguir você deve fazer uma leitura rápida do material de lógica sequencial em VHDL [VHDL -> Sequencial](https://insper.github.io/Z01.1/VHDL/VHDL-Sequencial/)
 
 Vamos agora implementar um FF tipo D em VHDL, para isso iremos modificar o arquivo `D-LogicaSequencial/src/FlipFlopD.vhd` que declara a entidade de um Flip Flop do tipo D.
 
@@ -94,7 +94,7 @@ Ao final dessa etapa você deve ser capaz de:
 
 Com o FFD implementando, vocês são capazes de implementar o binary-digit, que possui internamente um FF tipo D:
 
-![](figs/E-LogSeq/binarydigit_v2.svg){width=500}
+![](../figs/E-LogSeq/binarydigit_v2.svg){width=500}
 
 Para isso vocês terão que modificar o arquivo: `D-LogicaSequencial/src/BinaryDigit.vhd` e utilizando `port map` criar o componente `binaryDigit`.
 

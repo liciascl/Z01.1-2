@@ -1,7 +1,7 @@
 # Exercicio CPU - 1
 
 !!! info
-    Os problemas aqui descritos são os mesmo do final do [LAB-15](/Z01.1/cpu-lab-1).
+    Os problemas aqui descritos são os mesmo do final do [Lab-15](/Z01.1/Labs/Lab15-CPU/).
 
 ## CPU
 

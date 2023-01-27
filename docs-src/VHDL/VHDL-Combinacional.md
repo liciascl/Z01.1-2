@@ -80,7 +80,7 @@ with a select
 
 O hardware gerado pela descrição anterior seria:
 
-![](figs/VHDL/VHDL-with-mux.svg)
+![](../figs/VHDL/VHDL-with-mux.svg)
 
 !!! warning 
     Utilizar `others` na última opção!

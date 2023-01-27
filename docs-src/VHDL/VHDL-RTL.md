@@ -14,11 +14,11 @@ Para criarmos esse `RTL` de um módulo específico devemos no Quartus selecionar
 1. Abra o projeto no `Quartus` localizado em `D-LogicaSequencial/Quartus/`
 2. No **Project Navigator** escolha por **Files**:
 
-![Files](figs/E-LogSeq/quartus-files.png)
+![Files](../figs/E-LogSeq/quartus-files.png)
 
 3. Encontre o arquivo que deseja configurar como **TopLevel**:
 
-![FlipFlopD](figs/E-LogSeq/quartus-FlipFlopD.png)
+![FlipFlopD](../figs/E-LogSeq/quartus-FlipFlopD.png)
 
 Clique com o botão direito no arquivo e selecione a opção: **Set as Top Level Entity**
 
@@ -29,4 +29,4 @@ Agora o `Quartus` irá enterpretar esse módulo como sendo o "top" do projeto (p
 
 Esse código em VHDL irá ser interpretada pelo compilador como um FlipFlop tipo D.
 
-![FF RTL](figs/E-LogSeq/rtl-ff.png)
+![FF RTL](../figs/E-LogSeq/rtl-ff.png)

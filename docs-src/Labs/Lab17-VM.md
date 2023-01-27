@@ -29,7 +29,7 @@ Abra o simulador online da calculadora [hp48](http://www.poleyland.com/hp48/) e 
 ## VM Z01 - básico
 
 !!! info "TEORIA"
-    Leia a [Teoria/VM](/Z01.1/Teoria-vm/) antes de seguir.
+    Leia a [Teoria/VM](/Z01.1/commum-content/teoria/Teoria-vm/) antes de seguir.
     
 Vamos agora trabalhar com a nossa vm, vocês terão que implementar os programas a seguir e testar com o script (`testeVM.py`). 
 
@@ -43,14 +43,14 @@ Você notou que nesses códigos pedimos para salvar o resultado em `temp 0`, faz
 isso pela operação de `pop temp 0`. Vamos estudar um pouco a respeito disso:
 
 !!! info "TEORIA"
-    Leia a [Teoria/VM - Segmentos](/Z01.1/Teoria-vm-segmentos/) antes de seguir.
+    Leia a [Teoria/VM - Segmentos](/Z01.1/commum-content/teoria/Teoria-vm-segmentos/) antes de seguir.
 
 ## goto (jump)
 
 Nossa linguagem vm suporta realizar condições e loops, vamos ver como isso é feito e praticar um pouco!
 
 !!! info "TEORIA"
-    Leia a [Teoria/VM - jump](/Z01.1/Teoria-vm-jump/) antes de seguir.
+    Leia a [Teoria/VM - jump](/Z01.1/commum-content/teoria/Teoria-vm-jump/) antes de seguir.
     
 Implementem os códigos a seguir
 
@@ -71,7 +71,7 @@ div(10,2) + div(mult(mult(15,3), sqrt(121.2))), exp(2,5))
 - note que os operadores viraram chamadas de funções.
 
 !!! info "TEORIA"
-    Leia a [Teoria/VM - Funções](/Z01.1/Teoria-vm-funcoes/) antes de seguir.
+    Leia a [Teoria/VM - Funções](/Z01.1/commum-content/teoria/Teoria-vm-funcoes/) antes de seguir.
     
 Vamos agora trabalhar com funções na nossa VM, implementem os códigos a seguir:
 

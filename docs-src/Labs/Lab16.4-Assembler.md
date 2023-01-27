@@ -5,7 +5,7 @@
     
 Iremos agora implementar um dos métodos da classe **Code**, a parte responsável por gerar os três bits referentes ao `jump`:
 
-![](figs/H-Assembler/code-jump.png)
+![](../figs/H-Assembler/code-jump.png)
 
 No Intellij abra o código `code.java` e procure pelo método `jump`:
 
@@ -52,15 +52,15 @@ Vamos implementar algo bem simples que está incompleto, mas vai servir para ent
 
 Com a classe implementada, podemos executar o teste unitário dela. No Intellij:
 
-![](figs/H-Assembler/code-test.png)
+![](../figs/H-Assembler/code-test.png)
 
 Com o botão direito no `test/java/assembler/CodeTest`
 
-![](figs/H-Assembler/code-test-run.png)
+![](../figs/H-Assembler/code-test-run.png)
 
 Note que o teste falhou, já que a nossa implementação está incompleta.
 
-![](figs/H-Assembler/code-test-erro.png)
+![](../figs/H-Assembler/code-test-erro.png)
 
 ### terminando
 
@@ -71,7 +71,7 @@ Note que o teste falhou, já que a nossa implementação está incompleta.
 !!! warning "Antes de continuar"
     Termine de implementar essa classe
 
-![](figs/H-Assembler/code-test-result.png)
+![](../figs/H-Assembler/code-test-result.png)
 
 ## Continuando
 

@@ -7,11 +7,11 @@ Através deste guia, você conseguirá criar uma máquina virtual no VirtualBox 
 2. Conecte o HD Externo de tipo A (MBR) no Windows, neste momento deverá aparecer uma mensagem dizendo para formatar a unidade para poder utiliza-la, clique em Não.
 
 3. Agora, abra o Painel de Controle, procure por Ferramentas Administrativas e em seguida Gerenciamento do Computador (Cuidado para não confundir com Gerenciador de Dispositivos!).
-![Gerenciamento do Computador](figs/VM/win_vm_1.png)
+![Gerenciamento do Computador](../figs/VM/win_vm_1.png)
 
 4. Agora no menu lateral, procure por Gerenciamento de Discos, na parte central, você deve ser capaz de ver o seu HD e o HD Externo conectado, caso contrário, verifique a conexão USB e certifique-se que clicou no botão Ignorar ao conecta-lo.
 
-![Gerenciamento de Discos](figs/VM/win_vm_2.png)
+![Gerenciamento de Discos](../figs/VM/win_vm_2.png)
 
 5. Com foco no HD Externo e procure pelo número do Disco (geralmente fica na parte inferior em baixo do nome, no gráfico de barras). Deve haver algo como `Disco 2` ou `Disco 1`. 
 

@@ -2,9 +2,9 @@
 
 | Entrega      |
 |--------------|
-| 04/11 - Sexta |
+| Quinta - 27/04 |
 
-![Assembly](figs/F-Assembly/sistema-assembly.svg)
+![Assembly](../figs/F-Assembly/sistema-assembly.svg)
 
 Nesse projeto cada grupo terá que implementar diversos códigos em assembly a fim de entendermos a linguagem e as limitações do hardware propostos.
 
@@ -120,6 +120,6 @@ Deve-se implementar diversos programas na linguagem de máquina do Z01 que irão
 
 
 ### Formulários
- 
+<!--  
  - [Scrum Master](https://forms.gle/Yjoi2Mtwmp7MbSfS8)
- - [Desenvolvedores](https://forms.gle/NnHDz7UVb63zwpm86)
+ - [Desenvolvedores](https://forms.gle/NnHDz7UVb63zwpm86) -->

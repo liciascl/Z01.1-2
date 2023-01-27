@@ -7,7 +7,7 @@ Ao final desse lab você deve ser capaz de:
 1. Executar script de teste do projeto E - Assembly
 
 !!! warning "Antes de começar"
-    Toda vez que um novo projeto começar será necessário realizar algumas configurações no repositório do grupo, vocês devem seguir para o documento: [`Util/Começando novo Projeto`](https://insper.github.io/Z01.1/Util-Comecando-novo-projeto/) e depois voltar para esse lab.
+    Toda vez que um novo projeto começar será necessário realizar algumas configurações no repositório do grupo, vocês devem seguir para o documento: [`Util/Começando novo Projeto`](https://insper.github.io/Z01.1/Util/Util-Comecando-novo-projeto/) e depois voltar para esse lab.
 
     - Não seguir sem realizar a etapa anterior.
 
@@ -30,7 +30,7 @@ Nesta versão do curso iremos utilizar um simulador que utiliza o nosso próprio
 
 O simulador possui a estrutura ilustrada a seguir:
 
-![Simulador](figs/F-Assembly/simulador.svg)
+![Simulador](../figs/F-Assembly/simulador.svg)
 
 O simulador possui como entradas (para cada simulação): a arquitetura do computador (hardware); o conteúdo da memória RAM o conteúdo da memória ROM e um tempo de execução.
 
@@ -53,11 +53,11 @@ $ python3 E-Assembly/Z01simulador.py
 
 O simulador possui a interface a seguir, onde a coluna da esquerda é referente a memória ROM (programa), a coluna da direita referente a memória RAM (dados). 
 
-![Simulador GUI](figs/F-Assembly/gui.png)
+![Simulador GUI](../figs/F-Assembly/gui.png)
 
 Toda vez que houver uma alteração em algum dos parâmetros do simulador (RAM/ROM/Instruções,...) o programa será novamente executado no simulador para obtermos um resultado atualizado. Isso pode dar a sensação de "lerdeza" mas lembre da complexidade do sistema: estamos executando um programa em um hardware inteiramente simulado no computador de vocês.
 
-![tool](figs/F-Assembly/gui-tool.svg)
+![tool](../figs/F-Assembly/gui-tool.svg)
 
 ### Programando 
 
@@ -106,7 +106,7 @@ Para testarmos esse código será necessário colocarmos valores iniciais na mem
 - Endereço 0 = 5
 - Endereço 1 = 8
 
-![Alterando a memória RAM](figs/F-Assembly/exe1.png)
+![Alterando a memória RAM](../figs/F-Assembly/exe1.png)
 
 
 !!! example "Executando"
@@ -114,13 +114,13 @@ Para testarmos esse código será necessário colocarmos valores iniciais na mem
     1. Verifique se o valor da memória 2 é a soma dos endereços 0 e 1.
     1. Brinque com esses valores...
 
-    ![](figs/F-Assembly/exe1-tutorial.gif)
+    ![](../figs/F-Assembly/exe1-tutorial.gif)
 
 ## Treinando
 
 Vamos praticar um pouco agora programar em assembly, no começo parece bem difícil, mas com a prática as coisas vão ficando mais fáceis.
 
-Use o resumo das instruções: [AssemblyZ01](https://insper.github.io/Z01.1/Util-Resumo-Assembly) para saber as instruções disponíveis.
+Use o resumo das instruções: [AssemblyZ01](https://insper.github.io/Z01.1/Z01/Util-Resumo-Assembly) para saber as instruções disponíveis.
 
 !!! example ""
     Altere o código para armazenar o resultado no endereço RAM[5]

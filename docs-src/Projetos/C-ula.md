@@ -2,9 +2,9 @@
 
 | Entrega      |
 |--------------|
-| 23/09 - Sexta |
+| Quinta - 16/03 |
 
-![ULA](figs/D-ULA/D-sistema-ula.png)
+![ULA](../figs/D-ULA/D-sistema-ula.png)
 
 Neste projeto seu grupo terá que desenvolver os componentes para a implementação de uma unidade lógica e aritmética (ULA) de 16 bit (proposta pelo livro texto) que será capaz de realizar operações binárias muito simples porém que possibilitará realizarmos muitas coisas!
 
@@ -19,7 +19,7 @@ Neste projeto seu grupo terá que desenvolver os componentes para a implementaç
 !!! tip
     Você é `Scrum Master` e não sabe por onde começar? 
     De uma olhada nessas dicas:
-    [Vixi! Sou Scrum Master](https://insper.github.io/Z01.1/Util-Comecando-novo-projeto/)
+    [Vixi! Sou Scrum Master](https://insper.github.io/Z01.1/Util/Util-Comecando-novo-projeto/)
     
 !!! tip
     Sempre teste os módulos e verifique se está funcionando como o esperado.
@@ -136,11 +136,11 @@ Para implementar a ALU será necessário usar os blocos desenvolvidos neste proj
 
 
 
-![ULA](figs/D-ULA/D-ula.png)
+![ULA](../figs/D-ULA/D-ula.png)
 
 ## Forma de onda
 
-Para cada teste realizado, deve-se carregar a interface gráfica e tirar um print da forma de onda do módulo com os testes aplicados a ele (LAB-7). Essa imagem deve ser salva na mesma pasta dos arquivos VHDL (src/) e com o mesmo nome dos módulos. A pasta no final do projeto deve possuir os seguintes arquivos:
+Para cada teste realizado, deve-se carregar a interface gráfica e tirar um print da forma de onda do módulo com os testes aplicados a ele (Lab-6). Essa imagem deve ser salva na mesma pasta dos arquivos VHDL (src/) e com o mesmo nome dos módulos. A pasta no final do projeto deve possuir os seguintes arquivos:
 
 ``` bash
 /src/
@@ -207,10 +207,12 @@ Cada integrante do grupo irá receber duas notas: uma referente ao desenvolvimen
 
 As rubricas a serem seguidas serão comuns a todos os projeto e está descrito no link:
 
- - [Rubricas Scrum e Desenvolvedor](/Sobre-Rubricas/)
+ - [Rubricas Scrum e Desenvolvedor](/Z01.1/Home/Sobre-Rubricas/)
 
 ### Formulários
 
+<!--
  - [Scrum Master](https://forms.gle/bH2PZoGeakVoVznF7)
  - [Desenvolvedores](https://forms.gle/NnHDz7UVb63zwpm86)
+ -->
 

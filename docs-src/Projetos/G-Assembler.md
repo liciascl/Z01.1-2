@@ -2,9 +2,9 @@
 
 | Entrega      |
 |--------------|
-| 25/11 - Sexta |
+| Terça - 23/05 |
 
-![Assembly](figs/H-Assembler/sistema-assembler.png)
+![Assembly](../figs/H-Assembler/sistema-assembler.png)
 
 Nesse projeto iremos criar o programa *assembler* que é responsável por traduzir os códigos escrito em Assembly para a linguagem de máquina.
 
@@ -53,12 +53,12 @@ O projeto no total possui 5 módulos, sendo que o módulo `AssemblerZ01.java` j�
 
 | Conceito |                                                                                      |
 |----------|--------------------------------------------------------------------------------------|
-| A        | - Insere automaticamente um NOP após instrução de JUMP que não é seguida de nop.      |
+| A+       | - Insere automaticamente um NOP após instrução de JUMP que não é seguida de nop.      |
 |          | - Imprime mensagem de alerta que isso foi feito.                                     |
 |          |                                                                                      |
-| B        | - Verifica se instrução de jump é seguida de NOP, caso contrário dá erro             |
+| B+       | - Verifica se instrução de jump é seguida de NOP, caso contrário dá erro             |
 |          |                                                                                      |
-| C        | - Criado assembler a partir de estrutura de código disponibilizada                   |
+| C+       | - Criado assembler a partir de estrutura de código disponibilizada                   |
 |          | - Todos os testes unitários passam no teste                                          |
 |          | - Os testes de integração passam nos testes                                          |
 |          | - Actions configurado corretamente                                                    |
@@ -75,7 +75,7 @@ O projeto no total possui 5 módulos, sendo que o módulo `AssemblerZ01.java` j�
 
 
 ### Formulários
-
+<!-- 
  - [Scrum Master](https://forms.gle/bAHcrJxVp99L1DYs5)
- - [Desenvolvedores](https://forms.gle/NnHDz7UVb63zwpm86)
+ - [Desenvolvedores](https://forms.gle/NnHDz7UVb63zwpm86) -->
 

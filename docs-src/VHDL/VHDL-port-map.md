@@ -130,7 +130,7 @@ Sim, é possível, desde que nosso somador de 1-bit seja um Full-Adder, lembre-s
 
 Portanto, o nosso somador de 4-bits, nada mais será que uma `caixa preta` que dentro terá 4 somadores de 1-bit realizando o trabalho, para o usuário final, que irá utilizar o componente isto ficará transparente e o mesmo não saberá deste detalhe. 
 
-![](figs/VHDL/VHDL-Esquema-Adder.svg)
+![](../figs/VHDL/VHDL-Esquema-Adder.svg)
 
 Vamos criar nosso componente Somador de 4-bits, `Adder.vhdl` e definir suas entradas e saídas (4-bits).
 ``` vhdl

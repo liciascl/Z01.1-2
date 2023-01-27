@@ -1,13 +1,13 @@
 # H - VM
 
-![](figs/I-VM/sistema-vm.svg)
+![](../figs/I-VM/sistema-vm.svg)
 
 Nesse projeto iremos criar programas em VM para o nosso Z01.1,
 essa entrega é individual e não vale nota, mas será cobrado em prova e servirá para vocês entenderem o próximo projeto: `I-VMTranslator`.
 
 ## Instruções 
 
-As instruções técnicas referente ao projeto estão no laboratório [H-VM-Lab-1](vm-Lab-1.md).
+As instruções técnicas referente ao projeto estão no laboratório [Lab17-VM](/Z01.1/Labs/Lab17-VM/).
 
 ## Módulos a serem implementados
 

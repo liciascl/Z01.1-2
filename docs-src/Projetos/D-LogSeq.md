@@ -2,9 +2,9 @@
 
 | Entrega      |
 |--------------|
-| 21/10 - Sexta|
+| Sexta - 24/03 |
 
-![](figs/E-LogSeq/sistema-seq.png)
+![](../figs/E-LogSeq/sistema-seq.png)
 
 Neste projeto você terá que desenvolver os componentes de memória que serão utilizados no computador Z01.
 
@@ -57,9 +57,9 @@ Os modulos a serem desenvolvidos na entrega estão detalhados no livro base do c
    - **Arquivo**: `FlipFlopD.vhd`
    - **Dependência**:
  
-É é um bloco elementar e sua implementação é criada no [laboratório do projeto](E-Sequencial-Lab-1).
+É um bloco elementar e sua implementação é criada no [laboratório do projeto](/Z01.1/Labs/Lab8-Seq/).
 
-![FlipFlop D](figs/E-LogSeq/ffd.png)
+![FlipFlop D](../figs/E-LogSeq/ffd.png)
 
 ---------------------------
 
@@ -68,7 +68,7 @@ Os modulos a serem desenvolvidos na entrega estão detalhados no livro base do c
     - **Dependência**: `FlipFlopD` e `Mux2Way`
     - **Descrição** : É um registrador feito para armazenar um único bit de informação (0 ou 1). A interface do módulo consiste em uma entrada (d) para o bit a ser armazenado, um sinal de **load** para indicar quando o bit de entrada deve ser armazenado um sinal de *clock* e a saída *output** que é o bit armazenado:
     
-![Binary Digit](figs/E-LogSeq/binarydigit_v2.svg){width=500}
+![Binary Digit](../figs/E-LogSeq/binarydigit_v2.svg){width=500}
     
 ---------------------------
 
@@ -77,7 +77,7 @@ Os modulos a serem desenvolvidos na entrega estão detalhados no livro base do c
     - **Dependência** : `BinaryDigit`
     - **Descrição** : É um registrador de 8 bits criado a partir do binaryDigit porém agora para armazenar um vetor de entrada de 8 bits de tamanho.
     
-![Register 8](figs/E-LogSeq/register8.png)
+![Register 8](../figs/E-LogSeq/register8.png)
     
 ---------------------------
 
@@ -128,7 +128,7 @@ else
     - **Descrição** : É uma memória de 8 endereços com 16 bits de largura. O componente possui como entrada o vetor input de 16 bits, o endereço a ser armazenado (address) o sinal **load** que indica quando é para ser armazenado e o clock. Como saída temos o valor lido no endereço especificado quando load for igual a 0.
      Note que sinal LOAD tem como função similar o do READ/WRITE, quando zero, indica que queremos ler o valor armazenado, quando 1 indica que queremos escrever (write) nessa posição.
     
-![RAM 8](figs/E-LogSeq/ram8.png)
+![RAM 8](../figs/E-LogSeq/ram8.png)
 
 ---------------------------
     
@@ -151,7 +151,7 @@ else
     - **Dependência** : `Ram512`, `Mux8Way16`, `Dmux8Way`
     - **Descrição** : Similar a RAM8 porém com 4512 endereços.
  
-![RAM](figs/E-LogSeq/ram.png)
+![RAM](../figs/E-LogSeq/ram.png)
  
  
 !!! tip
@@ -183,14 +183,14 @@ Cada integrante do grupo irá receber duas notas: uma referente ao desenvolvimen
 
 | Conceito |                                                                           |
 |----------|---------------------------------------------------------------------------|
-| A        | - Módulos extras (rtl + testes)                                           |
+| A+       | - Módulos extras (rtl + testes)                                           |
 |          | - Gravar vídeo explicando os rtl e as formas de onda dos módulos extras   |
 |          |                                                                           |
-| B        | - Usou sempre que possível outros módulos para criar um novo (hierarquia) |
+| B+       | - Usou sempre que possível outros módulos para criar um novo (hierarquia) |
 |          | - Exemplo: usou o `inc16`, `mux16` e `reg16` para criar PC                |
 |          | - Teste do PC e da RAM8 na FPGA                                           |
 |          |                                                                           |
-| C        | - Todos os módulos básicos sendo testados no Actions                              |
+| C+       | - Todos os módulos básicos sendo testados no Actions                              |
 |          | - Todos os módulos básicos passam nos testes                                      |
 |          | - Possui a forma de onda (.png) e rtl de todos os módulos (.png)          |
 |          |                                                                           |
@@ -228,7 +228,7 @@ Para a rubrica A o grupo deve implementar os seguintes módulos extras
 
  O CouterDown é componente capaz de contar para 'baixo' em binário (000 -> 111 -> 110 -> 101 -> 100), esse componente é formado por FlipFlops do tipo T, como demonstrado no diagrama a seguir:
  
-![](figs/E-LogSeq/CounterDown.png)
+![](../figs/E-LogSeq/CounterDown.png)
 
 > Fonte: (2008) Fundamentals of Digital Logic with VHDL Design - pg. 406
 
@@ -236,9 +236,9 @@ Para a rubrica A o grupo deve implementar os seguintes módulos extras
 
 As rubricas a serem seguidas serão comuns a todos os projeto e está descrito no link:
 
- - [Rubricas Scrum e Desenvolvedor](/Sobre-Rubricas/)
+ - [Rubricas Scrum e Desenvolvedor](/Z01.1/Home/Sobre-Rubricas/)
 
 ### Formulários
-
+<!-- 
  - [Scrum Master](https://forms.gle/2TK2MyWGm5E6Sn926)
- - [Desenvolvedores](https://forms.gle/NnHDz7UVb63zwpm86)
+ - [Desenvolvedores](https://forms.gle/NnHDz7UVb63zwpm86) -->

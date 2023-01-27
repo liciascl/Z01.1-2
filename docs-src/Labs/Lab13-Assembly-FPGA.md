@@ -8,7 +8,7 @@ Ao final desse lab você deve ser capaz de:
 
 ## Conectando o LCD
 
-![FPGA](figs/F-Assembly/placa.jpg)
+![FPGA](../figs/F-Assembly/placa.jpg)
 
 ## Programando a FPGA
 

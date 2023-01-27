@@ -7,7 +7,7 @@
 
 Vocês estavam desenvolvendo o projeto F quando o teste de integração `./testeAssemblyMyCpu.py` falhou no nasm descrito a seguir. Um colega do grupo enviou o waveform a seguir para você encontrar o problema (você deve falar o que está falhando). 
 
-[![](figs/Exercicios/CPU-fail-add-loadA.png)](figs/Exercicios/CPU-fail-add-loadA.png)
+[![](../figs/Exercicios/CPU-fail-add-loadA.png)](../figs/Exercicios/CPU-fail-add-loadA.png)
 
 !!! tip
     1. clique na imagem para ampliar
@@ -46,7 +46,7 @@ Você foi chamado para fazer engenharia reversa em um programa executando no HW 
 
 Encontre os ==três== comandos em nasm que estão sendo executados no hardware nesse momento:
 
-[![](figs/Exercicios/CPU-eng-rev.png)](figs/Exercicios/CPU-eng-rev.png)
+[![](../figs/Exercicios/CPU-eng-rev.png)](../figs/Exercicios/CPU-eng-rev.png)
 
 !!! tip
     1. clique na imagem para ampliar

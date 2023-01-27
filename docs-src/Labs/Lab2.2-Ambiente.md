@@ -18,7 +18,7 @@ $ git clone $URL_DO_FORK
 !!! note "$URL_DO_FORK"
     A URL do seu fork pode ser obtida pelo botão 'Clone or Download' do github
     
-    ![](figs/A-Transistores/url-fork.png){width=500}
+    ![](../figs/A-Transistores/url-fork.png){width=500}
     
     ==Note que a url exibida é do repositório base da disciplina, vocês
     devem clonar o repositório que foi criado no Lab 1==
@@ -115,7 +115,7 @@ Uma vez enviando o branch para o servidor, podemos via a interface **web** do `g
 
 Vamos agora gerar o pull-request na interface do github, de forma similar ao exemplo a seguir:
 
-![](figs/B-CI/pullrequest.gif)
+![](../figs/B-CI/pullrequest.gif)
 
 !!! tip "git"
     Se tiver instalado o software [`hub`](https://github.com/github/hub) digite na linha de comando: `$ hub browser`.
@@ -138,4 +138,4 @@ O **mediador** do projeto deve revisar os pull-requests (e corrigir eventuais er
 e aceitar ou negar o pedido. 
 
 
-![](figs/B-CI/pullrequest-accept.gif)
+![](../figs/B-CI/pullrequest-accept.gif)

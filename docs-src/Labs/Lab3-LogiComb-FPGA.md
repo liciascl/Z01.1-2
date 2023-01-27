@@ -2,9 +2,9 @@
 
 | Material de estudos                                |
 |----------------------------------------------------|
-| https://insper.github.io/Z01.1/Teoria-Componentes/ |
-| https://insper.github.io/Z01.1/VHDL-basico/        |
-| https://insper.github.io/Z01.1/VHDL-Combinacional/ |
+| https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Componentes/ |
+| https://insper.github.io/Z01.1/VHDL/VHDL-basico/        |
+| https://insper.github.io/Z01.1/VHDL/VHDL-Combinacional/ |
 
 !!! info "Trabalhando"
 
@@ -13,7 +13,7 @@
     1. Esse laboratório é para ser realizado individualmente. Ficar conectado no canal
     do grupo para discutir com os colegas.    
 
-Este laboratório é introdutório para o desenvolvimento do projeto ([`B-Lógica-Combinacional`](/Z01.1/LogiComb-Projeto)), onde iremos criar componentes de hardware que serão os alicerces do nosso computador. Primeiro precisamos praticar um pouco de VHDL e entender a ferramenta e o fluxo de compilação, teste e programação (Quartus).
+Este laboratório é introdutório para o desenvolvimento do projeto ([`B-Lógica-Combinacional`](/Z01.1/Projetos/B-LogiComb/)), onde iremos criar componentes de hardware que serão os alicerces do nosso computador. Primeiro precisamos praticar um pouco de VHDL e entender a ferramenta e o fluxo de compilação, teste e programação (Quartus).
 
 Após essa etapa, iremos começar o desenvolvimento do projeto, programando os módulos que virão a ser utilizados no computador Z01 (próximo lab).
 
@@ -65,12 +65,12 @@ A pasta do projeto `B-LogicaCombinacional` no repositório Z01 possui a seguinte
 ## Abrindo o Quartus
 
 
-Abra o software do `Quartus` ![](figs/LogiComb/quartusIcon.png){width=30px} e clique em `File` :arrow_right: `Open Project` :arrow_right: escolha o projeto localizado na pasta `B-LogicaCombinacional/Quartus`. O arquivo que o Quartus irá reconhecer é o: `DE0_CV_Default.qpf` como no gif a seguir:
+Abra o software do `Quartus` ![](../figs/LogiComb/quartusIcon.png){width=30px} e clique em `File` :arrow_right: `Open Project` :arrow_right: escolha o projeto localizado na pasta `B-LogicaCombinacional/Quartus`. O arquivo que o Quartus irá reconhecer é o: `DE0_CV_Default.qpf` como no gif a seguir:
 
 !!! tip
     Se não encontrar o software na barra de tarefas abra o terminal e escreva `quartus` :arrow_right: `enter`.
 
-![Abrindo o Quartus](figs/LogiComb/Quartus1.gif)
+![Abrindo o Quartus](../figs/LogiComb/Quartus1.gif)
 
 Abra o arquivo `TopLevel.vhd` como demonstrado no gif anterior, este arquivo é o que chamamos de [top level](https://www.xilinx.com/support/documentation/sw_manuals/xilinx10/isehelp/pfp_p_toplevelhdl.htm) (pode-se fazer uma analogia com o `main` de um código), ele será o primeiro a ser executado na compilação e utilizará os demais módulos do sistema.
 
@@ -84,7 +84,7 @@ Abra o arquivo `TopLevel.vhd` como demonstrado no gif anterior, este arquivo é 
 
 Para compilarmos esse código VHDL basta irmos em: `Processing` :arrow_right: `Start Compilation`. A ferramenta irá "realizar" o código, ou seja, interpretar e torna-lo um hardware.
 
-![Compilando](figs/LogiComb/Quartus2.gif)
+![Compilando](../figs/LogiComb/Quartus2.gif)
 
 !!! progress
     Cheguei aqui!
@@ -97,7 +97,7 @@ Podemos gerar a visão [RTL](https://en.wikipedia.org/wiki/Register-transfer_lev
 
 Ele irá gerar o diagrama a seguir:
 
-![Compilando](figs/LogiComb/Quartus3.png){width=450}
+![Compilando](../figs/LogiComb/Quartus3.png){width=450}
 
 Onde podemos analisar que não existe nenhuma lógica que relaciona entrada com saída.
 
@@ -135,13 +135,13 @@ end rtl;
 
 O resultado deve ser o seguinte:
 
-![Compilando](figs/LogiComb/Quartus-rtl2.png){width=450}
+![Compilando](../figs/LogiComb/Quartus-rtl2.png){width=450}
 
 Onde o valor do `LEDR0` será o próprio valor de entrada chave `SW0`.
 
 ### "Programando a FPGA"
 
-![](figs/LogiComb/de0-cv.jpeg){wdith=10px}
+![](../figs/LogiComb/de0-cv.jpeg){wdith=10px}
 
 Para programar a FPGA você deve:
 
@@ -151,7 +151,7 @@ Para programar a FPGA você deve:
 
 No quartus vá em `Tools` :arrow_right: `Programmer`. Ele deve abrir uma nova interface:
 
-![Programando](figs/LogiComb/quartus-pgr.gif)
+![Programando](../figs/LogiComb/quartus-pgr.gif)
 
 Mexa na chave SW0 e note que o LED irá acender conforme a chave é colocada na posição on.
 
@@ -204,7 +204,7 @@ Para cada desafio proposto a seguir, verifique se o RTL corresponde a lógica qu
 !!! example "Tarefa"
     Escreva um código VHDL para implementar o circuito a seguir:
 
-    ![Circuito](figs/LogiComb/circuito.png){width=450}
+    ![Circuito](../figs/LogiComb/circuito.png){width=450}
 
     Sendo:
 
@@ -223,7 +223,7 @@ Para cada desafio proposto a seguir, verifique se o RTL corresponde a lógica qu
 
 Note que na nossa FPGA possuímos seis [displays de sete segmentos](https://en.wikipedia.org/wiki/Seven-segment_display). 
 
-![](figs/LogiComb/7seg.png)
+![](../figs/LogiComb/7seg.png)
 
 Para termos acesso a esses displays, basta modificar a entidade do projeto para:
 
@@ -239,7 +239,7 @@ end entity;
 
 Agora com um display de 7 segmentos mapeado como saída (`out`) na nossa `entity` podemos acionar cada led do display como descrito no manual da placa (isso só é possível pois o projeto já foi configurado corretamente antes pelo seu professor).
 
-![](figs/LogiComb/7seg-manual.png){width=450}
+![](../figs/LogiComb/7seg-manual.png){width=450}
 
 !!! tip
     Para acender um segmento é necessário colocar `0` e para apagar `1`.

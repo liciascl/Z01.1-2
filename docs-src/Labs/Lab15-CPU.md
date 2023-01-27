@@ -3,19 +3,19 @@
 !!! warning "Antes de começar"
     <!-- Aqui começa o projeto **F-CPU**. ==Vocês devem escolher um novo Mediador== -->
     
-    Toda vez que um novo projeto começar será necessário realizar algumas configurações no repositório do grupo, vocês devem seguir para o documento: [`Util/Começando novo Projeto`](https://insper.github.io/Z01.1/Util-Comecando-novo-projeto/) e depois voltar para esse lab.
+    Toda vez que um novo projeto começar será necessário realizar algumas configurações no repositório do grupo, vocês devem seguir para o documento: [`Util/Começando novo Projeto`](https://insper.github.io/Z01.1/Util/Util-Comecando-novo-projeto/) e depois voltar para esse lab.
 
     - Não seguir sem realizar a etapa anterior.
 
 A unidade de controle é o periférico da CPU responsável por decodificar uma instrução (linguagem de máquina) e realizar as modificações necessárias no HW (mux, load, ULA, registradores, PC) a fim de executar tal operação.
 
-![](figs/G-CPU/controlUnit.svg){width=60%}
+![](../figs/G-CPU/controlUnit.svg){width=60%}
 
 O `control unit` controla todos os componentes internos da nossa CPU, é ele que por exemplo seleciona como vai estar os sinais do seletor dos mux (`muxALUI/I`/`muxAM/D`, qual operação a ULA irá executar (`zr.nx.zy.ny.f.no`), onde o dado será salvo (`loadD`, `loadA`, `writeM`, `loadPC`) e se é para executar uma operação de salto (`loadPC`). 
 
 A figura a baixo ilustra tudo que o ==control unit controla==.
 
-![](figs/G-CPU/cpu-cu.svg)
+![](../figs/G-CPU/cpu-cu.svg)
 
 !!! note
     Note que os sinais do comparador da ULA: `zr` e `ng` também vão para a unidade de controle. É a partir do valor deles que o hardware decide se vai ou não ocorrer uma operação de salto.
@@ -30,13 +30,13 @@ Vamos implementar partes da unidade de controle.
     Exemplo!
 
 !!! tip
-    Utilize o documento [`Z01/Instruction Set`](https://insper.github.io/Z01.1/Util-InstructionSet/) para resolver esse lab.
+    Utilize o documento [`Z01/Instruction Set`](https://insper.github.io/Z01.1/Z01/Util-InstructionSet/) para resolver esse lab.
 
 O sinal `loadD` indica quando o registrador `D` deve armazenar um novo sinal. Para isso, devemos verificar se a instrução em questão que está sendo decodificada pelo 'controlUnit' é do tipo **comando** (C), essa verificação é feita pelo bit mais significativo da instrução (`bit17`).
 
 Uma vez que detectado uma instrução do tipo C, devemos verificar se o comando que ela representa carrega a operação de salvar em `%D`, verificamos isso pelo bit `d1`, que indica se irá ou não ocorrer um carregamento em `%D`.
 
-![](figs/G-CPU/loadD.svg)
+![](../figs/G-CPU/loadD.svg)
 
 Com esses dados conseguimos criar a tabela verdade a seguir e extrair a equação que rege esse sinal.
 
@@ -64,13 +64,13 @@ Podendo ser traduzido para o código em VHDL (via soma dos produtos):
          
     O resultado deve ser como a seguir:
     
-    ![](figs/G-CPU/loadD-teste.png){width=300}
+    ![](../figs/G-CPU/loadD-teste.png){width=300}
 
 ### `loadM`
 
 Vamos agora implementar o sinal `loadM`, esse sinal é o que controla se irá ocorrer uma operação de escrita na memória RAM.
 
-![](figs/G-CPU/cpu-writeM.svg){width=300}
+![](../figs/G-CPU/cpu-writeM.svg){width=300}
 
 !!! example "Implementando e testando"
     1. Entenda os bits envolvidos
@@ -96,7 +96,7 @@ Agora implemente o `loadA`, esse sinal que controla o load do registrador A.
 
 Esse sinal (`muxALUI_A`) controla o mux que seleciona qual o sinal que entra no registrador `%A`, a entrada `0` do mux é o sinal que sai da ULA e o sinal `1` do mux são os bits [15..0] da instrução. 
 
-![](figs/G-CPU/cpu-muxALUI.svg){width=300}
+![](../figs/G-CPU/cpu-muxALUI.svg){width=300}
 
 !!! tip
     Com esse sinal implementando, nossa CPU já suporta a instrução `leaw $x, %A`
@@ -139,14 +139,14 @@ Os periféricos internos do `memoryIO` são:
 
 `screen` e `ram16k` possuem a interface detalhada a seguir:
 
-![](figs/G-CPU/memoryIO.svg)
+![](../figs/G-CPU/memoryIO.svg)
 
 !!! note
     Os sinais do tipo `LCD_` da `screen` são conectados diretamente ao LCD, via `portmap`.
 
 O componente `memoryIO` possui a seguinte entidade:
 
-![](figs/G-CPU/memoryio-entidade.png){width=200}
+![](../figs/G-CPU/memoryio-entidade.png){width=200}
 
 ### Estudando!
 
@@ -164,7 +164,7 @@ O componente `memoryIO` possui a seguinte entidade:
 ??? info "Resposta"
     O sinal em questão é o `address`, pois os periféricos são mapeados em endereços diferentes, e é esse sinal que define qual periférico a CPU está querendo acessar. Exemplo: se o sinal `address = 1024`, a CPU está realizando uma operação na memória RAM, mas se o sinal `address = 21184` isso indica que a CPU está querendo acessar o `LED`.
 
-    - Para mais informações, leia [Teoria/Z01 - Mapa de Memória](https://insper.github.io/Z01.1/Teoria-Z01-mapadeMemoria/).
+    - Para mais informações, leia [Teoria/Z01 - Mapa de Memória](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Z01-mapadeMemoria/).
 
 3. Qual sinal informa o `memoryIO` que a CPU está realizando uma escrita?
 

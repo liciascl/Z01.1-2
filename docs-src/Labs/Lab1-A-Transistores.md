@@ -58,7 +58,7 @@ w 576 400 576 384 0
 
 Vocês devem obter o seguinte diagrama:
 
-![](figs/A-Transistores/simulacao.gif){width=400}
+![](../figs/A-Transistores/simulacao.gif){width=400}
 
 
 !!! exercise
@@ -163,7 +163,7 @@ Cada grupo receberá:
 - 2 CIs CD4007
 - 10 LEDs coloridos (Vermelho e amarelo)
 
-![](figs/A-Transistores/materiais.jpg)
+![](../figs/A-Transistores/materiais.jpg)
 
 
 ### Trabalhando
@@ -185,7 +185,7 @@ O grupo deve se organizar e executar da melhor forma possível (com todos partic
 
 Iremos implementar uma porta lógica do tipo NOT usando transistores BJT. 
 
-![RTL Not](figs/A-Transistores/rtl-not.png){width=500}
+![RTL Not](../figs/A-Transistores/rtl-not.png){width=500}
 
 
 <!--
@@ -313,12 +313,12 @@ Vamos continuar no [TinkerCad](https://www.tinkercad.com/).
 
 Vamos usar o componente [7404](https://pt.wikipedia.org/wiki/TTL_7404) que possui 6 NOTs para fazer a mesma coisa que fizemos com os transistor discreto:
 
-![](figs/A-Transistores/7404-pcb.png)
+![](../figs/A-Transistores/7404-pcb.png)
 
 !!! note "7404"
     Para mais informações, acesse:  https://pt.wikipedia.org/wiki/TTL_7404
    
-    ![](figs/A-Transistores/7404.png)
+    ![](../figs/A-Transistores/7404.png)
 
 !!! note "Solução"
     - https://www.tinkercad.com/things/kLr9TtHWZiL-dazzling-gogo/editel?sharecode=-_Z8VZQsUBWqvOQtc0codGcJn5mnrZr7-LkwdooNvjM

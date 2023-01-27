@@ -183,7 +183,7 @@ Deve-se implementar os seguintes circuitos combinacionais:
     - **Descrição**: Questão do display de sete segmentos da lista de exercícios [Álgebra Booleana 2](https://insper.github.io/Z01.1/Exercicios/Exercicio-Algebra-Booleana-2/)
 
 !!! tip "Display 7s"
-    1. Esse item é uma continuação do que foi realizado no [Lab3](../Labs/Lab3-LogiComb-FPGA/), onde vocês tiveram que exibir um valor constante no display de 7s. 
+    1. Esse item é uma continuação do que foi realizado no [Lab3](/Z01.1/Labs/Lab3-LogiComb-FPGA/), onde vocês tiveram que exibir um valor constante no display de 7s. 
     1. Para cada segmento do display, vocês devem encontrar uma equação booleana que o represente, e então implementar em VHDL e testar na FPGA.
 <!--
 - O grupo deve apresentar um vídeo da FPGA mostrando nos display de 7 segmentos o seguinte:

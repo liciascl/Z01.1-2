@@ -7,11 +7,11 @@ Ao final desse lab você deve ser capaz de:
 !!! tip
     Para fazer esse lab, você deve ter lido a teoria sobre:
     
-    - [mapa de memória](https://insper.github.io/Z01.1/Teoria-Z01-mapadeMemoria/)
-    - [jump](https://insper.github.io/Z01.1/Teoria-nasm-jump/)
+    - [mapa de memória](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Z01-mapadeMemoria/)
+    - [jump](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-nasm-jump/)
 
 !!! note
-    Dúvidas sobre assembly? [Z01->Resumo Assembly](https://insper.github.io/Z01.1/Util-Resumo-Assembly/)
+    Dúvidas sobre assembly? [Z01->Resumo Assembly](https://insper.github.io/Z01.1/Z01/Util-Resumo-Assembly/)
 
 Esse lab deve ser feito no Z01Simulador, para abrir o programa basta ==executar o script== `Z01simulador.py` dentro da pasta do projeto `E-Assembly`
 
@@ -25,10 +25,10 @@ Esse lab deve ser feito no Z01Simulador, para abrir o programa basta ==executar 
     === "configuração"
         No Z01Simulador, abra as configurações e coloque o tempo de simulação em `40000`
         
-        ![](figs/F-Assembly/lab2-lcd1-config.gif){width=500}
+        ![](../figs/F-Assembly/lab2-lcd1-config.gif){width=500}
     
     === "resultado esperado"
-        ![](figs/F-Assembly/lab2-jmp1.png){width=350}
+        ![](../figs/F-Assembly/lab2-jmp1.png){width=350}
         
     === "nasm"
         
@@ -175,4 +175,4 @@ Saltos condicionais são utilizados para verificarmos condições no programa, v
         No Z01Simulador, abra as configurações e coloque o tempo de simulação em `40000`
         
     === "resultado esperado"
-        ![](figs/F-Assembly/lab2-jmp5.png){width=350}
+        ![](../figs/F-Assembly/lab2-jmp5.png){width=350}
