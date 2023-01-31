@@ -1,4 +1,4 @@
-# Lab 12: praticando nasm
+# Lab 14: praticando nasm
 
 Ao final desse lab você deve ser capaz de:
 
@@ -16,7 +16,7 @@ Os seguintes programas são contemplados nesse lab:
 Os problemas desse lab possuem teste unitário, para isso você deve editar o arquivo de configurações de teste: `config_testes_nasm.txt` e descomentar o módulo que está implementando. E então executar o script `testeAssembly.py`
 
 !!! example "mov.nasm" 
-    - `E-Assembly/src/mov.nasm`
+    - `F-Assembly/src/mov.nasm`
     
     Movimentação de dados da memoria RAM
     
@@ -25,7 +25,7 @@ Os problemas desse lab possuem teste unitário, para isso você deve editar o ar
     - RAM[3] = 1
 
 !!! example "max.nasm" 
-    - `E-Assembly/src/max.nasm`
+    - `F-Assembly/src/max.nasm`
     
     RAM2 = max(RAM[0], RAM[1])
     
@@ -33,11 +33,11 @@ Os problemas desse lab possuem teste unitário, para isso você deve editar o ar
     Estamos considerando número inteiros.                                 
  
 !!! example "abs.nasm" 
-    - `E-Assembly/src/abs.nasm`
+    - `F-Assembly/src/abs.nasm`
    
     Copia o valor de RAM[1] para RAM[0] deixando o valor sempre positivo.
 
 !!! example "mult.nasm" 
-    - `E-Assembly/src/mult.nasm`
+    - `F-Assembly/src/mult.nasm`
  
     Multiplica o valor de RAM[1] com RAM[0] salvando em RAM[3]

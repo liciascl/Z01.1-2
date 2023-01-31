@@ -1,4 +1,4 @@
-# Lab 13: Programando FPGA
+# Lab 15: Programando FPGA
 
 Ao final desse lab você deve ser capaz de:
 
