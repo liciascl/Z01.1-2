@@ -1,8 +1,8 @@
-# E - Assembly
+# F - Assembly
 
 | Entrega      |
 |--------------|
-| Quinta - 27/04 |
+| Quinta - 05/05 |
 
 ![Assembly](../figs/F-Assembly/sistema-assembly.svg)
 
@@ -17,7 +17,7 @@ Seguir as instruções a seguir para desenvolvimento do projeto.
 A pasta do projeto E, no repositório Z01, possui a seguinte estrutura:
 
 ```
-E-Assembly/
+F-Assembly/
   testeAssembly.py
   Z01simulator.py
   /Quartus
@@ -38,7 +38,7 @@ E-Assembly/
 
 ### Executando o Script de Teste 
 
-Abra o terminal na pasta `E-Assembly/` e execute o script python localizado nessa pasta:
+Abra o terminal na pasta `F-Assembly/` e execute o script python localizado nessa pasta:
 
 ```bash
 $ ./testeAssembly.py
@@ -59,7 +59,7 @@ Deve-se implementar diversos programas na linguagem de máquina do Z01 que irão
 
 ### Módulos 
 
-- Esses arquivos estão localizados em `E-Assembly/src/`
+- Esses arquivos estão localizados em `F-Assembly/src/`
 
 **A descrição de cada módulo está localizada no cabeçalho do arquivo.**
  

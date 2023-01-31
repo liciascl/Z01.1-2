@@ -2,7 +2,7 @@
 
 | Entrega      |
 |--------------|
-| Terça - 09/05 |
+| Terça - 25/04 |
 
 ![](../figs/G-CPU/sistema-cpu.svg)
 
@@ -14,10 +14,10 @@ A seguir explicações de como começar o projeto.
 
 ### Entendendo a Organização do Projeto
 
-A pasta do projeto F no repositório Z01, possui a seguinte estrutura:
+A pasta do projeto E no repositório Z01, possui a seguinte estrutura:
 
 ```
-F-Computador/
+E-Computador/
     testeHW.py
     Z01SimuladorMyCPU.py
     src/
@@ -39,7 +39,7 @@ $ ./testeHW.py
 
 ### Testando o projeto completo
 
-Para testar se o computador está correto, iremos executar alguns programas realizados na APS `E-Assembly` porém agora no Harware que vocês montaram. Apenas execute esse teste após a implementação dos três módulos solicitados no projeto. Para isso, descomente a linha referente ao `CPU.vhd` no arquivo `config_testes.txt` execute.
+Para testar se o computador está correto, iremos executar alguns programas realizados na APS `F-Assembly` porém agora no Harware que vocês montaram. Apenas execute esse teste após a implementação dos três módulos solicitados no projeto. Para isso, descomente a linha referente ao `CPU.vhd` no arquivo `config_testes.txt` execute.
 
 ```bash
 $ ./testeHW.py
@@ -50,7 +50,7 @@ Todos os módulos vhdl (desde o projeto B) serão compilados e o `CPU.vhd` será
 !!! tip
     Temos uma página inteira detalhando como debugamos esse teste:
     
-    - [Testando CPU](https://insper.github.io/Z01.1/Projetos/F-CPU-Testando/)
+    - [Testando CPU](https://insper.github.io/Z01.1/Projetos/E-CPU-Testando/)
 
 ### Actions
 
@@ -59,7 +59,7 @@ Adicione ao Actions o teste:
 - `testeHW.py`
 
 !!! tip
-    No Actions você tem que colocar o caminho completo: `F-Computador/...`
+    No Actions você tem que colocar o caminho completo: `E-Computador/...`
 
 
 ## Projeto
@@ -69,7 +69,7 @@ Deve-se implementar o `Control Unit` e integrar os módulos: `MemoryIO` e `CPU`.
 ## Módulos 
 
 !!! note
-    Esses arquivos estão localizados em `F-Computador/src/`
+    Esses arquivos estão localizados em `E-Computador/src/`
 
 Os módulos estão listados de maneira Top - Down
 
