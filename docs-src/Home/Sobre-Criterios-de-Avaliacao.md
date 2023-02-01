@@ -50,11 +50,11 @@ A nota final de cada APS será calculada da seguinte forma:
 
 Exemplos: 
 
-1. Se agluém obter: `Grupo` = A+ e `Individual` = A, nota da APS será A+
-2. Se agluém obter: `Grupo` = A+ e `Individual` = B, nota da APS será A
-3. Se agluém obter: `Grupo` = A+ e `Individual` = C, nota da APS será B+
-4. Se agluém obter: `Grupo` = A+ e `Individual` = D, nota da APS será D
-5. Se agluém obter: `Grupo` = C+ e `Individual` = B, nota da APS será C
+1. Se alguém obter: `Grupo` = A+ e `Individual` = A, nota da APS será A+
+2. Se alguém obter: `Grupo` = A+ e `Individual` = B, nota da APS será A
+3. Se alguém obter: `Grupo` = A+ e `Individual` = C, nota da APS será B+
+4. Se alguém obter: `Grupo` = A+ e `Individual` = D, nota da APS será D
+5. Se alguém obter: `Grupo` = C+ e `Individual` = B, nota da APS será C
 
 
 A nota final de **Projeto** (quando atingindo o critério) será a média de todas as notas das APSs.
