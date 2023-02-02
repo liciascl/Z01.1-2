@@ -396,7 +396,7 @@ Estudar lógica booleana e praticar
 
 ## Aula 15/02
 
-Estudar lógica booleana e praticar
+Aritmética Binária/Lógica booleana
 
 | Estudo prévio                                                                      |
 |------------------------------------------------------------------------------------|
@@ -423,7 +423,6 @@ Dúvidas sobre dados digitais, uma breve visão geral sobre git e github.
 1. Handout/ Exercício (1h20):
     - [Dados Digitais 1](https://github.com/Insper/Z01.1/blob/main/Exercicios/Dados_1.pdf)
     - [Dados Digitais 2](https://insper.github.io/Z01.1/Exercicios/Exercicio-Dados-2/)
-    - [Aritmetica Booleana - Ex. 1](https://github.com/Insper/Z01.1/blob/main/Exercicios/Exercicio-Aritmetica-Booleana.pdf)
 
 
 ## Aula 08/02
