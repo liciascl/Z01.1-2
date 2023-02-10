@@ -411,7 +411,7 @@ Aritmética Binária/Lógica booleana
     
 ## Aula 10/02
 
-Dúvidas sobre dados digitais, uma breve visão geral sobre git e github.
+Dúvidas sobre dados digitais.
 
 | Estudo prévio                                |
 |----------------------------------------------|
