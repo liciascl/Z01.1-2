@@ -10,7 +10,7 @@ Esse projeto deverá ser realizado em trios e os arquivos devem ser enviados pel
 
 Queremos controlar o robô da figura a seguir:
 
-![](carro.png){width=400}
+![](../figs/A-Transistores/carro.png){width=400}
 
 
 onde y1 e y2 são sinais de saída (de 2 bits cada) para os motores que controlam as esteiras da esquerda e direita. x1, x2, x3 e x4 são sensores (bumpers) para detectar a colisão do robô.
