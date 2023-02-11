@@ -1,42 +1,40 @@
-# A - Álgebra Booleana e Implementação de Funções Lógicas com Transistores e CI
+# A - Álgebra Booleana e Implementação de Funções Lógicas com CIs
 
 | Data da entrega| 
 |----------------|
 | Quarta - 01/03 |
 
-Nesse projeto iremos utilizar a álgebra booleana para obter as funções lógicas de um sistema as quais deverão ser implementadas utilizando transistores.
+Nesse projeto iremos utilizar a álgebra booleana para obter as funções lógicas de um sistema as quais deverão ser implementadas utilizando CIs.
 
-Esse projeto deverá ser realizado em duplas ou trios e os arquivos devem ser enviados pelo Forms.
+Esse projeto deverá ser realizado em trios e os arquivos devem ser enviados pelo Forms.
 
 Queremos controlar o robô da figura a seguir:
 
-![](../figs/A-Transistores/carro.png){width=400}
+![](carro.png){width=400}
 
 
-onde y1 e y2 são sinais de saída dos motores que controlam as esteiras da esquerda e direita e y3 é uma ponte H para controlar a direção do robô. x1, x2, x3 e x4 são sensores (bumpers) para detectar a colisão do robô.
+onde y1 e y2 são sinais de saída (de 2 bits cada) para os motores que controlam as esteiras da esquerda e direita. x1, x2, x3 e x4 são sensores (bumpers) para detectar a colisão do robô.
 
-Os sinais de y1 e y2 descrevem os seguintes movimentos:
+Os sinais de y1 e y2 (de 2 bits cada) descrevem os seguintes movimentos:
 
-- "0" - motor desigado
-- "1" - motor ligado 
+- "10" - motor ligado diretamente (andando para frente)
+- "01" - motor ligado reversamente (andando para trás) 
+- "00" - motor desligado
 
-O sinal y3 controla a direção do movimento:
-
-- "0" - diretamente (andando para frente)
-- "1" - reversamente (andando para trás) 
+> os sinais y1 e y2 devem ser ligados as entradas I1, I2, I3 e I4 da ponte H.
 
 O controle deve ser feito da seguinte forma:
 
-1. O motor esquerdo (y1) deverá ser desligado e o motor direito (y2) ligado reversamente, sempre que uma colisão for detectada em x2, mas não em x1.
-2. O motor esquerdo (y1) deverá ser ligado reversamente e o motor direito (y2) desligado, sempre que uma colisão for detectada em x1, mas não em x2.
-3. O motor esquerdo (y1) deverá ser desligado e o motor direito (y2) ligado diretamente, sempre que uma colisão for detectada em x4, mas não em x3.
-4. O motor esquerdo (y1) deverá ser ligado diretamente e o motor direito (y2) desligado, sempre que uma colisão for detectada em x3, mas não em x4.
-5. Ambos os motores devem ser ligados reversamente se os sensores x1 e x2 detectarem colisão.
-6. Ambos os motores devem ser ligados diretamente se os sensores x3 e x4 detectarem colisão.
-7. Todos os motores devem ser ligados diretamente se nenhum sensor indicar colisão.
-8. Todos os motores devem ser desligados se (x1 ou x2) indicar colisão juntamente com (x3 ou x4).
+1. Todos os motores devem ser desligados se (x1 ou x2) indicar colisão juntamente com (x3 ou x4).
+2. Todos os motores devem ser ligados diretamente se nenhum sensor indicar colisão.
+3. Ambos os motores devem ser ligados reversamente se os sensores x1 e x2 detectarem colisão.
+4. Ambos os motores devem ser ligados diretamente se os sensores x3 e x4 detectarem colisão.
+5. O motor esquerdo (y1) deverá ser desligado e o motor direito (y2) ligado reversamente, sempre que uma colisão for detectada em x2, mas não em x1.
+6. O motor esquerdo (y1) deverá ser ligado reversamente e o motor direito (y2) desligado, sempre que uma colisão for detectada em x1, mas não em x2.
+7. O motor esquerdo (y1) deverá ser desligado e o motor direito (y2) ligado diretamente, sempre que uma colisão for detectada em x4, mas não em x3.
+8. O motor esquerdo (y1) deverá ser ligado diretamente e o motor direito (y2) desligado, sempre que uma colisão for detectada em x3, mas não em x4.
 
--> Caso alguma condição lógica esteja presente em mais de uma instrução, considerar a primeira condição que ocorre!
+> Caso alguma condição lógica esteja presente em mais de uma instrução, considerar a primeira condição que ocorre!
 
 <!--
 1. O motor esquerdo (y1) deverá ser ligado e o motor direito (y2) desligado, permitindo que o robô rotacione em sentido horário, sempre que um objeto for detectado em x1 e/ou x3, mas não em x2.
@@ -46,10 +44,6 @@ O controle deve ser feito da seguinte forma:
 -> Caso alguma condição lógica esteja presente em mais de uma instrução, considerar a primeira condição que ocorre!
 -->
 
-## Atenção
-
-1. y1 e y2 devem ser implementadas com CIs (74xx)
-2. y3 deve ser implmentada com transistores MOS (4007)
 
 
 ## Rubricas
