@@ -8,9 +8,9 @@ O grupo irá trabalhar de forma colaborativa via a utilização do git/ github. 
 
 Grupo de até 6 pessoas! Preencher a tabela a seguir:
 
-
+<!--
 [Tabela - Grupos](https://insper-my.sharepoint.com/:x:/g/personal/renantd_insper_edu_br/EQHEFdtGcLRNuL7X5HDlDVUBDR75zupL_jPeNQF0t6c4LQ?e=wKzzNf)
-
+-->
 
 ## GitHub
 
