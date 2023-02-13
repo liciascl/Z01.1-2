@@ -50,10 +50,10 @@ O controle deve ser feito da seguinte forma:
 
 | Conceito | Descritivo                                                  |
 |----------|-------------------------------------------------------------|
-| **A+**   | Funções lógicas implementadas com transistores no protoboard                     |
-|          | Anexar video no repositório da atividade                    |
-| **B+**   | Funções lógicas implementadas com transistores no simulador falstad ou tinkercad |
-|          | Anexar video e/ou o arquivo texto da simulação no repositório da atividade       |
+| **A+**   | Funções lógicas implementadas com CIs no protoboard e testadas no carrinho       |
+|          | Anexar video                                                |
+| **B+**   | Funções lógicas implementadas com CIs no simulador falstad ou tinkercad |
+|          | Anexar video e/ou o arquivo texto da simulação              |
 | **C+**   | Funções lógicas obtidas e simplificadas                     |
 |          | Anexar foto da resolução                                    |
 | **D**    | Funções lógicas obtidas mas não simplificadas               |

@@ -4,7 +4,7 @@
     1. Realizar individualmente as simulações online
     1. Realizar em grupo a montagem no protoboard
 
-Esse laboratório tem como objetivo trabalhar com os conceitos básicos de portas lógicas do tipo RTL realizadas a base de transistores discretos do tipo BJT e também trabalhar com componentes integrados (CI) da família CMOS.
+Esse laboratório tem como objetivo trabalhar com os conceitos básicos de portas lógicas realizadas a base de transistores e também trabalhar com componentes integrados (CI).
 
 Existem basicamente três níveis de simulação de componentes eletrônicos: a primeira, puramente lógica utiliza de portas lógicas "ideais" (https://simulator.io/board). Um simulador mais preciso irá utilizar transistores para a implementação dessas portas lógicas porém não leva em consideração todos os fatores físicos-eletrônicos dos componentes (http://falstad.com/circuit/). Já um simulador que leva em consideração as propriedades dos componentes é chamado de SPICE e irá gerar uma simulação mais precisa em termos físicos do circuito original (http://circuitlab.com).
 
@@ -138,6 +138,7 @@ w 320 304 240 304 0
 !!! progress
     Cheguei Aqui!
 
+
 ## Parte 2 - RTL e CMOS
 
 <!---
@@ -157,8 +158,7 @@ Cada grupo receberá:
 - 2 protoboards
 - 2 baterias 9V
 - Jumpers macho-macho
-- 10 transistores NPN s9013
-- 10 transistores PNP s9012
+- 10 transistores NPN 
 - 20 resistores de 330
 - 2 CIs CD4007
 - 10 LEDs coloridos (Vermelho e amarelo)
@@ -213,8 +213,10 @@ Para isso vocês deverão:
 
     - Mexa na chave para aplicar `0` ou `1` na entrada do circuito.
 
+<!--
 !!! note "Solução"
     https://www.tinkercad.com/things/5UK9w22fykq-fantastic-vihelmo-lahdi/editel?sharecode=Pf5ZAOJK09Skvm128BIzTAuarSX-nLYnMMrE2YQYe7U
+-->
 
 !!! progress
     Cheguei Aqui!
@@ -245,15 +247,15 @@ Agora que as duas `NOT` foram implementadas, testadas e estão funcionado, conec
 !!! example "Tarefa"
     1. Levante a tabela verdade do circuito recém montado.
     1. Qual porta lógica é essa?
--->
+
 
 ----------------------
 
 ### b - OR
 
-<!---
+
 **Cada grupo deve realizar duas** implementações do circuito a seguir que representa uma NOT:
--->
+
 
 Implemente uma porta lógica do tipo OR usando transistores BJT. Essa porta terá duas entradas e uma saída, cada entrada deve ser uma chave e a saída um LED.
 
@@ -266,7 +268,7 @@ Implemente uma porta lógica do tipo OR usando transistores BJT. Essa porta ter�
     Cheguei Aqui!
 
 ----------------------
-<!--
+
 ### c - Equação
 
 Implemente a equação lógica a seguir em um circuito do tipo RTL. 
@@ -297,35 +299,22 @@ Q = A.(A.(A+B)+A.C)
 
 Circuitos integrados são componentes eletrônicos que possuem internamente dezenas a milhares de transistores que implementam circuitos eletrônicos, facilitando e possibilitando o desenvolvimento de projetos de hardware mais complexos.
 
-Existem várias 'famílias' de CI que implementam portas lógicas, iremos trabalhar com uma versão chamada de série [TTL 7400](https://pt.wikipedia.org/wiki/S%C3%A9rie_7400). Exemplos de componentes dessa famílias:
+Existem várias 'famílias' de CI que implementam portas lógicas, iremos trabalhar com uma versão chamada de série [CD 4000](https://en.wikipedia.org/wiki/List_of_4000-series_integrated_circuits). Exemplos de componentes dessa famílias:
 
-- 7400: Quatro portas NAND de duas entradas
-- 7401: Quatro portas NAND de duas entradas com coletor aberto
-- 7402: Quatro portas NOR de duas entradas
-- 7403: Quatro portas NAND de duas entradas com coletor aberto
-- 7404: Seis inversores (porta NOT)
+- 4001: Quatro portas NOR de duas entradas
+- 4011: Quatro portas NAND de duas entradas
+- 4071: Quatro portas OR de duas entradas
 
-> Para a lista completa acesse: https://pt.wikipedia.org/wiki/Lista_dos_circuitos_integrados_da_s%C3%A9rie_7400
+> Para a lista completa acesse: https://en.wikipedia.org/wiki/List_of_4000-series_integrated_circuits
 
-Vamos continuar no [TinkerCad](https://www.tinkercad.com/).
+### NOT
 
-### a - NOT
-
-Vamos usar o componente [7404](https://pt.wikipedia.org/wiki/TTL_7404) que possui 6 NOTs para fazer a mesma coisa que fizemos com os transistor discreto:
-
-![](../figs/A-Transistores/7404-pcb.png)
-
-!!! note "7404"
-    Para mais informações, acesse:  https://pt.wikipedia.org/wiki/TTL_7404
-   
-    ![](../figs/A-Transistores/7404.png)
-
-!!! note "Solução"
-    - https://www.tinkercad.com/things/kLr9TtHWZiL-dazzling-gogo/editel?sharecode=-_Z8VZQsUBWqvOQtc0codGcJn5mnrZr7-LkwdooNvjM
+Implemente agora uma porta lógica do tipo NOT usando o CD4001. 
 
 !!! progress
     Cheguei Aqui!
 
+<!--
 ----------------------
 
 ### b - Equação
@@ -344,7 +333,7 @@ Q = (A xor B) or not(C)
 
 !!! progress
     Cheguei Aqui!
-
+-->
 ## Praticando no papel
 
 > Questão extraída do EXAME NACIONAL DE DESEMPENHO DOS ESTUDANTES 2014
