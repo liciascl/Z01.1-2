@@ -6,7 +6,7 @@
 
 Nesse projeto iremos utilizar a álgebra booleana para obter as funções lógicas de um sistema as quais deverão ser implementadas utilizando CIs.
 
-Esse projeto deverá ser realizado em trios e os arquivos devem ser enviados pelo Blackboard (é necessário que apenas um(a) integrante do grupo envie, desde que identifique os demais membros).
+Esse projeto deverá ser realizado em grupos de 4 integrantes e os arquivos devem ser enviados pelo Blackboard (é necessário que apenas um(a) integrante do grupo envie, desde que identifique os demais membros).
 
 Queremos controlar o robô da figura a seguir:
 
