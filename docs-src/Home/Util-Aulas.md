@@ -403,9 +403,11 @@ Aritmética Binária/Lógica booleana
 | [Aritmética Binária](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Aritmetica-Binaria/) |
 
 1. Expositiva/ Dúvidas  (1h00)
+    - [Slides](https://github.com/Insper/Z01.1/blob/main/Aulas/03-Aritmetica.pdf)    
 
 1. Handout/ Exercício (1h00):
     - [Aritmética Binária - **Fazer apenas ex. 1**](https://github.com/Insper/Z01.1/blob/main/Exercicios/Exercicio-Aritmetica-Booleana.pdf)
+    - [Álgebra Booleana - 1  - **Fazer até ex. 10**](/Z01.1/Exercicios/Exercicio-Algebra-Booleana-1)
 
     
     

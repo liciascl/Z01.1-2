@@ -140,7 +140,7 @@
 !!! exercise text short
     Qual é a expressão em álgebra booleana do seguinte circuito:
 
-    ![](figs/Exercicios/Algebra-Booleana-1.png)
+    ![](../figs/Exercicios/Algebra-Booleana-1.png)
     
     !!! answer
         $G = (A+B) C D E$
