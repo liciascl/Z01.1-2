@@ -388,10 +388,12 @@ Estudar lógica booleana e praticar
 | [Teoria Álgebra Booleana](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Algebra-Booleana/) |
 
 1. Expositiva/ Dúvidas  (45 min)
+    - [Slides](https://github.com/Insper/Z01.1/blob/main/Aulas/04-Algebra.pdf) 
 
 1. Handout/ Exercício (1h15):
     - [Álgebra Booleana - 1](/Z01.1/Exercicios/Exercicio-Algebra-Booleana-1)
     - [Álgebra Booleana - 2](/Z01.1/Exercicios/Exercicio-Algebra-Booleana-2)
+    - [APS-A - Início](/Z01.1/Projetos/A-Algebra-Transistores)
 
 
 ## Aula 15/02
