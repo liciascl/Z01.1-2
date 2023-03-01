@@ -58,8 +58,7 @@ A pasta do projeto B no repositório `Z01.1-proj` possui a seguinte estrutura :
   /src
     *.vhd
   config_testes.txt
-  /testes
-    *.vhd
+  /teste_cocotb/tests.py
 ```
 
 1. `Quartus`: Projeto Quartus que faz uso dos arquivos VHDL localizados em `src/rtl/*.vhd` 
@@ -67,7 +66,7 @@ A pasta do projeto B no repositório `Z01.1-proj` possui a seguinte estrutura :
 1. `*.py`: Scripts em python automatiza a execução dos testes
 1. `src/*.vhd`: Arquivos VHDL que serão implementado pelo grupo
 1. `config_testes.txt`: Configuração dos testes
-1. `testes/*.vhd`: Arquivos VHDL que realizam teste lógico nos arquivos do rtl
+1. `/teste_cocotb/tests.py`: Script em python que realiza teste lógico nos arquivos em src
 
 ### Executando o script de teste 
 
@@ -177,7 +176,11 @@ Deve-se implementar os seguintes circuitos combinacionais:
 - Porta xor de 3 entradas
     - **Arquivo** : `xor3.vhd`
     - **Descrição**: Implemente uma porta XOR de 3 entradas utilizando necessariamente apenas um Mux8Way.
-    
+
+- Funções da APS-A
+    - **Arquivo** : `carrinho.vhd`
+    - **Descrição**: Implemente as funções relacionadas a y1 e y2 da APS-A.
+
 - Display de 7s
     - **Arquivo**: `sevenSeg.vhd'
     - **Descrição**: Questão do display de sete segmentos da lista de exercícios [Álgebra Booleana 2](https://insper.github.io/Z01.1/Exercicios/Exercicio-Algebra-Booleana-2/)
@@ -203,14 +206,15 @@ Para atingir os objetivos A e B, deve-se antes atingir o C.
 
 | Conceito | Descritivo                                                  |
 |----------|-------------------------------------------------------------|
-| **A+**   | Exibe três dígitos em Hexadecimal na FPGA - anexar video ao repositório                  |
+| **A+**   | Exibe três dígitos em Hexadecimal na FPGA - anexar video no repositório                     |
 |          | (exibir até o valor 0x3FF = 2^10 - 1)                       |
-| **B+**   | Módulos adicionais implementados e funcionado (circuito, detector de moedas, impressora, xor) |
+|          | Implemente as funções relacionadas a y1 e y2 da APS-A na FPGA - anexar video no repositório |
+| **B+**   | Módulos adicionais implementados e funcionado (circuito, detector de moedas, impressora, xor, carrinho) |
 |          | Implementar um único display de 7s (conta de 0x0 0xF) - anexar video ao repositório |
 | **C+**   | Ter criado o project no github                              |
 |          | Actions configurado e funcionando                           |
 |          | Todos os módulos básicos implementados e funcionado         |
-| **D**    | Até dois Módulos com falha/ não apresentou o vídeo da FPGA  |
+| **D**    | Até dois Módulos com falha                                  |
 | **I**    | Mais de três módulos com falha                              |
 
 !!! tip "Conceito A"
