@@ -325,40 +325,40 @@ Começo do projeto C-ULA, trabalhando com aritmética binária.
 ## Aula 14/09    
 
 1. Estúdio
+-->
 
-## Aula 09/09
+## Aula 08/03
 
 Projeto B - Lógica Combinacional
 
 | Estudo prévio                                      |
 |----------------------------------------------------|
-| https://insper.github.io/Z01.1/Teoria-Componentes/ |
-| https://insper.github.io/Z01.1/VHDL-basico/        |
-| https://insper.github.io/Z01.1/VHDL-Combinacional/ |
+| https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Componentes/ |
+| https://insper.github.io/Z01.1/VHDL/VHDL-basico/   |
+| https://insper.github.io/Z01.1/VHDL/VHDL-Combinacional/ |
 
 1. Expositiva/ Dúvidas (0h30)
 
 1. Laboratórios (1h30)
-    - [Lab5: Lógica Combinacional](/Z01.1/LogiComb-Lab-2)
+    - [Lab4: Lógica Combinacional](https://insper.github.io/Z01.1/Labs/Lab4-LogiComb/)
     
-## Aula 02/09
+## Aula 03/03
 
 Inicio do projeto B - Lógica Combinacional, começo do uso de VHDL.
 
 | Estudo prévio                                      |
 |----------------------------------------------------|
-| https://insper.github.io/Z01.1/Teoria-Componentes/ |
-| https://insper.github.io/Z01.1/VHDL-basico/        |
-| https://insper.github.io/Z01.1/VHDL-Combinacional/ |
+| https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Componentes/ |
+| https://insper.github.io/Z01.1/VHDL/VHDL-basico/   |
+| https://insper.github.io/Z01.1/VHDL/VHDL-Combinacional/ |
 
 1. Expositiva/ Dúvidas (0h30)
 
 1. Laboratórios (1h30)
-    - [Lab 2: GitHub](/Z01.1/A-Ambiente-Lab-1)
-    - [Lab 3: GitHub](/Z01.1/A-Ambiente-Lab-2)
-    - [Lab 4: FPGA - VHDL](https://insper.github.io/Z01.1/LogiComb-Lab-1)
+    - [Lab 2.1: GitHub](https://insper.github.io/Z01.1/Labs/Lab2.1-Ambiente/)
+    - [Lab 2.2: GitHub](https://insper.github.io/Z01.1/Labs/Lab2.2-Ambiente/)
+    - [Lab 3: FPGA - VHDL](https://insper.github.io/Z01.1/Labs/Lab3-LogiComb-FPGA/)
     
--->
 
 ## Aula 01/03
 
