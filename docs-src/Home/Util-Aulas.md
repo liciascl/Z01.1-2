@@ -261,71 +261,86 @@ Projeto D-Lógica Sequencial.
 1. Expositiva/ Dúvidas (0h30)
 
 1. Aula estúdio (1h30)
-
-
-## Aula 14/10
-
-Começo do projeto D-Lógica Sequencial.
-
-| Estudo prévio                                                                           |
-|-----------------------------------------------------------------------------------------|
-| [Lógica Sequencial](https://insper.github.io/Z01.1/Teoria-Logica-Sequencial/)           |
-
-
-1. Expositiva/ Dúvidas (1h00):
-
-1. Laboratório (1h00)
-    - [Lab 9: Lógica sequencial](/Z01.1/seq-Lab-1/)
-  
   
 ## Aula 30/09
 
 Segunda Avaliação Individual - Av2
+   
+## Aula 14/09    
+
+1. Estúdio
+-->
 
 
-## Aula 23/09
+## Aula 24/03
 
 1. Expositiva/Dúvidas/Revisão para a AV-I (0h30)
 
 1. Aula estúdio (1h30)
 
-## Aula 21/09
 
-Detalhes da ULA da CPU do Z01.1.
+## Aula 22/03
 
-| Estudo prévio                                     |
-|---------------------------------------------------|
-| [ULA](https://insper.github.io/Z01.1/Teoria-ULA/) |
+Projeto D-Lógica Sequencial.
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [Componentes síncronos](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Sequencial-Componentes/)           |
+
+
+1. Expositiva/ Dúvidas (1h00):
+
+1. Aula estúdio (1h00)
+    - [Lab 8: Lógica sequencial](/Z01.1/Labs/Lab8-Seq/)
+    
+    
+## Aula 17/03
+
+Finalizando o projeto C-ULA e começo do projeto D-Lógica Sequencial.
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [Lógica Sequencial](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Logica-Sequencial/)           |
 
 1. Expositiva/Dúvidas (0h30)
    
 1. Laboratórios (0h30)
-    - [Lab 8: ULA](/Z01.1/ula-Lab-3/)
+    - [Lab 8: Lógica sequencial](/Z01.1/Labs/Lab8-Seq/)
 
 1. Aula estúdio (1h00)
 
-## Aula 16/09
+## Aula 15/03
 
-Começo do projeto C-ULA, trabalhando com aritmética binária.
+Projeto C-ULA. Detalhes da ULA da CPU do Z01.1.
 
 | Estudo prévio                                                                           |
 |-----------------------------------------------------------------------------------------|
-| [Aritmética Binária](https://insper.github.io/Z01.1/Teoria-Aritmetica-Binaria/)         |
-| [Aritmética Binária - HW](https://insper.github.io/Z01.1/Teoria-Aritmetica-Binaria-HW/) |
+| [Aritmética Binária](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Aritmetica-Binaria/)         |
+| [Aritmética Binária - HW](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Aritmetica-Binaria-HW/) |
+| [ULA](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-ULA/)                                       |
 
 1. Expositiva/ Dúvidas (0h30):
 
-1. Handout (0h40):
+1. Handout (0h30):
     - [Handout Aritmética Booleana](https://github.com/Insper/Z01.1/blob/master/Exercicios/Exercicio-Aritmetica-Booleana.pdf)
 
-1. Laboratórios (0h50)
-    - [Lab 6: Adders](/Z01.1/ula-Lab-1/)
-    - [Lab 7: Visualizando simulação ](/Z01.1/ula-Lab-2/)
-    
-## Aula 14/09    
+1. Laboratórios (1h00)
+    - [Lab 6: Visualizando simulação ](/Z01.1/Labs/Lab6-Waves/)
+    - [Lab 7: ULA](/Z01.1/Labs/Lab7-ULA/)
+        
+## Aula 10/03
 
-1. Estúdio
--->
+Finalizando o projeto B-Lógica Combinacional e começo do projeto C-ULA.
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [Aritmética Binária](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Aritmetica-Binaria/)         |
+| [Aritmética Binária - HW](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Aritmetica-Binaria-HW/) |
+
+1. Expositiva/ Dúvidas (0h30)
+2. Aula estúdio (1h00)
+3. Laboratório (0h30)
+    - [Lab 5: Adders](/Z01.1/Labs/Lab5-ULA/)
 
 ## Aula 08/03
 
