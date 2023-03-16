@@ -2,7 +2,7 @@
 
 | Entrega      |
 |--------------|
-| Sexta - 24/03 |
+| Segunda - 27/03 |
 
 ![](../figs/E-LogSeq/sistema-seq.png)
 
