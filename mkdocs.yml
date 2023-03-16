@@ -192,7 +192,7 @@ nav:
 - Útil:
   - 'Util/Util-Comecando-novo-projeto.md'
   - 'Util/Util-vixi-sou-scrum.md'
-  - 'Dicas git': 'Util/Util-Dicas-GIT.md'
+#  - 'Dicas git': 'Util/Util-Dicas-GIT.md'
   - 'Util/Util-Dicas-Actions.md'
   - 'Infraestrutura': 'Util/Util-Infraestrutura.md'
   - 'Util/Util-VM-Linux.md'
