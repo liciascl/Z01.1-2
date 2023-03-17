@@ -28,12 +28,12 @@ A avaliação será distribuída via github classroom (link estará no blakcboar
 Liberado consulta ao material da disciplina.
 
 - Projetos:
-    - D: Lógica sequencial 
-    - E: Assembly  
+    - E: CPU
+    - F: Assembly 
 
 - Conteúdos:
-    - Lógica Sequêncial
-    - VHDL: Sequencial   
+    - CPU
+    - ControlUnit
     - Assembly
     - Assembly - Mapa de memória
     - Assembly - Saltos
@@ -41,9 +41,9 @@ Liberado consulta ao material da disciplina.
     - Conjunto de Instruções
 
 [Prova - Av3 - 21b](https://github.com/Insper/Z01.1/blob/main/Exercicios/Extras/Prova_Av3.pdf) - [Resolução](https://github.com/Insper/Z01.1/blob/main/Exercicios/Extras/Prova_Av3_resolucao.pdf) - [Repositório](https://github.com/insper-classroom/21b-ele-av3-teste)
+-->
 
-
-## AV2 - AI - sexta 30/09 - [Resolução](https://github.com/Insper/Z01.1/blob/main/Exercicios/Extras/22b-ele-av2_resolucao.pdf)
+## AV2 - AI
 
 Avaliação prática individual a ser realizada no SSD Linux. 
 
@@ -54,21 +54,25 @@ Liberado consulta ao material da disciplina.
 - Projetos:
     - B: Lógica Combinacional  
     - C: ULA
+    - D: Lógica sequencial 
 
 - Conteúdos:
     - Componentes Digitais
     - Aritmética Binária - HW: Half-Adder/ Full-Adder/ Somadores
     - ULA
-    - Lógica Sequêncial
+    - Lógica Sequencial
     - VHDL: Combinacional
+    - VHDL: Sequencial   
     - RTL
     - Formas de onda
     - Arquivos de teste
 
+[Prova - Av2 - 22b](https://github.com/Insper/Z01.1/blob/main/Exercicios/Extras/22b-ele-av2_resolucao.pdf)
+
 [Prova - Av2 - 22a](https://github.com/Insper/Z01.1/blob/main/Exercicios/Extras/Av2_resolucao.pdf ) - [Repositório](https://github.com/insper-classroom/22a-ele-av2-teste)
 
 [Prova - Av2 - 21b](https://github.com/Insper/Z01.1/blob/main/Exercicios/Extras/Prova-Av2_resposta.pdf ) 
--->
+
 
 ## AV1 - quarta 01/03 - [Resolução](https://github.com/Insper/Z01.1/blob/main/Exercicios/Extras/Av1_resolvida.pdf)
 
