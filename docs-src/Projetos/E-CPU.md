@@ -24,6 +24,7 @@ E-Computador/
 ```
 
 1. `testeHW.py`: Testa o `controlUnit.vhd`, `memoryIO.vhd` e `CPU.vhd` (todo o HW do computador)
+2. `src/`: Pasta com os arquivos fonte.
 
 
 ### Testando HW 
@@ -59,9 +60,9 @@ Deve-se implementar o `Control Unit` e integrar os módulos: `MemoryIO` e `CPU`.
 !!! note
     Esses arquivos estão localizados em `E-Computador/src/`
 
+<!--
 Os módulos estão listados de maneira Top - Down
 
-<!--
 ---------------------------
  
 - Computador (==já está pronto! Não precisa mexer==, mas é legal ver!)
@@ -136,7 +137,7 @@ Os módulos estão listados de maneira Top - Down
 |          |  Modifica os testes para testar esse novo recurso!                                 |
 
 
-> O grupo deve avaliar o melhor local para colocar o registrador %S e como fazer o carregamente em %D (Há mais de uma forma).
+> O grupo deve avaliar o melhor local para colocar o registrador %S e como fazer o carregamento em %D (Há mais de uma forma).
 
 ### Testagem mais completa na próxima APS
 
