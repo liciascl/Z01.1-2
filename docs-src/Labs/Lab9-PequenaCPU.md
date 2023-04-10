@@ -2,7 +2,6 @@
 
 !!! tip "Sugestão de trabalho"
     1. Cada um faz na sua máquina 
-    simultaneamente com os demais integrantes do grupo, discutindo no vídeo.
     
     1. Um integrante faz na sua máquina e compartilha a tela com os demais (todos comentam o mesmo código)
 
@@ -15,7 +14,7 @@ Este lab está disponível em um novo repositório, para começarem trabalhar cl
 
 ```
 cd ~
-https://github.com/Insper/Z01.1-Lab-Pequena-CPU
+git clone https://github.com/Insper/Z01.1-Lab-Pequena-CPU
 ```
 
 ## CPU

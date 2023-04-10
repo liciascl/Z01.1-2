@@ -185,74 +185,7 @@ Segunda Avaliação Individual - Av2
     
 ## 11/11 - Av3
 
-## Aula 09/11
-
-| Estudo prévio                                                                           |
-|-----------------------------------------------------------------------------------------|
-| [CPU](https://insper.github.io/Z01.1/Teoria-Z01/)       |
-| [Linguagem de máquina](https://insper.github.io/Z01.1/Teoria-Linguagem-de-Maquina/)           |
-
-1. Expositiva/ Dúvidas  (1h00)
-
-1. Laboratório (1h00)
-    - [Lab 15: Control unit](/Z01.1/cpu-lab-1/)
-
-
-## Aula 04/11
-
-| Estudo prévio                                                                           |
-|-----------------------------------------------------------------------------------------|
-| [CPU](https://insper.github.io/Z01.1/Teoria-Z01/)       |
-| [Linguagem de máquina](https://insper.github.io/Z01.1/Teoria-Linguagem-de-Maquina/)           |
-
-1. Expositiva/ Dúvidas  (1h00)
-
-1. Laboratório (1h00)
-    - [Lab 14: Pequena CPU](/Z01.1/ula-lab-4/)
-    
-
-## Aula 28/10
-
-| Estudo prévio                                                                           |
-|-----------------------------------------------------------------------------------------|
-| [ASM - Jump](https://insper.github.io/Z01.1/Teoria-nasm-jump/)       |
-
-   
-1. Revisão/ Dúvidas/ Expositiva (0h30):
-
-1. Laboratório (1h30)
-    - [Lab 12: Jump](/Z01.1/assembly-Lab-3/)
-    - [Lab 13: Praticando](/Z01.1/assembly-Lab-4/)   
-
-
-## Aula 26/10
-
-| Estudo prévio                                                                           |
-|-----------------------------------------------------------------------------------------|
-| [ASM - Mapa de memória](https://insper.github.io/Z01.1/Teoria-Z01-mapadeMemoria/)       |
-
-   
-1. Revisão/ Dúvidas/ Expositiva (1h00):
-
-1. Laboratório (1h00)
-    - [Lab 11: Periféricos](/Z01.1/assembly-Lab-2/)
-    
-    
-## Aula 21/10
-
-
-| Estudo prévio                                                                           |
-|-----------------------------------------------------------------------------------------|
-| [Linguagem de máquina](https://insper.github.io/Z01.1/Teoria-Linguagem-de-Maquina/)           |
-| [ASM - Assembly](https://insper.github.io/Z01.1/Teoria-Assembly/)           |
-| [Resumo - Assembly](https://insper.github.io/Z01.1/Util-Resumo-Assembly/)           |
-
-   
-1. Expositiva/ Dúvidas (1h00):
-
-1. Laboratório (1h00)
-    - [Lab 10: Assembly](/Z01.1/assembly-Lab-1/)
-    
+      
     
 ## Aula 19/10
 
@@ -265,11 +198,82 @@ Projeto D-Lógica Sequencial.
 ## Aula 30/09
 
 Segunda Avaliação Individual - Av2
-   
-## Aula 14/09    
-
-1. Estúdio
 -->
+
+## Aula 03/05
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [ASM - Jump](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-nasm-jump/)       |
+
+   
+1. Revisão/ Dúvidas/ Expositiva (0h30):
+
+1. Laboratório (1h30)
+    - [Lab 13: Jump](https://insper.github.io/Z01.1/Labs/Lab13-Assembly/)
+    - [Lab 14: Praticando](https://insper.github.io/Z01.1/Labs/Lab14-Assembly/)   
+
+
+## Aula 28/04
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [ASM - Mapa de memória](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Z01-mapadeMemoria/)       |
+
+   
+1. Revisão/ Dúvidas/ Expositiva (1h00):
+
+1. Laboratório (1h00)
+    - [Lab 12: Periféricos](https://insper.github.io/Z01.1/Labs/Lab12-Assembly/)
+    
+    
+## Aula 26/04
+
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [Linguagem de máquina](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Linguagem-de-Maquina/)           |
+| [ASM - Assembly](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Assembly/)           |
+| [Resumo - Assembly](https://insper.github.io/Z01.1/Z01/Util-Resumo-Assembly/)           |
+
+   
+1. Expositiva/ Dúvidas (1h00):
+
+1. Laboratório (1h00)
+    - [Lab 11: Assembly](https://insper.github.io/Z01.1/Labs/Lab11-Assembly/)
+
+
+## Aula 19/04    
+
+1. Aula estúdio
+
+
+## Aula 14/04
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [CPU](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Z01/)       |
+| [Linguagem de máquina](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Linguagem-de-Maquina/)           |
+| [Instruction Set](https://insper.github.io/Z01.1/Z01/Util-InstructionSet/)           |
+
+1. Expositiva/ Dúvidas  (1h00)
+
+1. Laboratório (1h00)
+    - [Lab 10: Control unit](https://insper.github.io/Z01.1/Labs/Lab10-CPU/)
+
+
+## Aula 12/04
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [CPU](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Z01/)       |
+| [Linguagem de máquina](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Linguagem-de-Maquina/)           |
+| [Instruction Set](https://insper.github.io/Z01.1/Z01/Util-InstructionSet/)           |
+
+1. Expositiva/ Dúvidas  (1h00)
+
+1. Laboratório (1h00)
+    - [Lab 9: Pequena CPU](https://insper.github.io/Z01.1/Labs/Lab9-PequenaCPU/)
 
 
 ## Aula 24/03

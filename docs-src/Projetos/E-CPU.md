@@ -19,38 +19,25 @@ A pasta do projeto E no repositório Z01, possui a seguinte estrutura:
 ```
 E-Computador/
     testeHW.py
-    Z01SimuladorMyCPU.py
     src/
     Quartus/
-    Z01-Simulator-RTL/
 ```
 
-1. `testeHW.py`: Testa o `controlUnit.vhd`, `memoryIO.vhd` e todo o HW do computador (`CPU.vhd`)
-1. `Z01SimuladorMyCPU.py`: Abre o simulador gráfico do Z01.1 com o HW do grupo
-1. `Z01-Simulator-RTL` : Pasta com o simulador do computador
+1. `testeHW.py`: Testa o `controlUnit.vhd`, `memoryIO.vhd` e `CPU.vhd` (todo o HW do computador)
 
-### Testando HW (ControlUnit e MemoryIO)
 
-Abra o terminal na pasta `F-Computador`, deixe descomentado apenas as linhas referentes ao `ControlUnit.vhd` e ao `MemoryIO.vhd` no arquivo `config_testes.txt` e execute o script python:
+### Testando HW 
+
+Abra o terminal na pasta `E-Computador`, deixe descomentado apenas as linhas referentes ao respectivo módulo (`ControlUnit.vhd`, `MemoryIO.vhd` e/ou `CPU.vhd`) no arquivo `config_testes.txt` e execute o script python:
 
 ```bash
 $ ./testeHW.py
 ```
 
-### Testando o projeto completo
+> O teste do CPU apenas funcionará se o ControlUnit tiver sido implementado.
 
-Para testar se o computador está correto, iremos executar alguns programas realizados na APS `F-Assembly` porém agora no Harware que vocês montaram. Apenas execute esse teste após a implementação dos três módulos solicitados no projeto. Para isso, descomente a linha referente ao `CPU.vhd` no arquivo `config_testes.txt` execute.
+Todos os módulos vhdl (desde o projeto B) serão compilados e o `CPU.vhd` será executado. 
 
-```bash
-$ ./testeHW.py
-```
-
-Todos os módulos vhdl (desde o projeto B) serão compilados e o `CPU.vhd` será executado. Todos os programas em Assembly que estiverem descomentados no arquivo `config_testes_nasm.txt` na pasta `E-Assembly` serão verificados. Na sequência, iremos comparar se a resposta (memória RAM) possui o resultado esperado. Como os programas são complexos, esperamos com isso conseguir testar a totalidade do projeto. 
-
-!!! tip
-    Temos uma página inteira detalhando como debugamos esse teste:
-    
-    - [Testando CPU](https://insper.github.io/Z01.1/Projetos/E-CPU-Testando/)
 
 ### Actions
 
@@ -64,7 +51,8 @@ Adicione ao Actions o teste:
 
 ## Projeto
 
-Deve-se implementar o `Control Unit` e integrar os módulos: `MemoryIO` e `CPU`. O HDL que descreve o `Computador` já foi fornecido pronto.
+Deve-se implementar o `Control Unit` e integrar os módulos: `MemoryIO` e `CPU`. 
+
 
 ## Módulos 
 
@@ -73,6 +61,7 @@ Deve-se implementar o `Control Unit` e integrar os módulos: `MemoryIO` e `CPU`.
 
 Os módulos estão listados de maneira Top - Down
 
+<!--
 ---------------------------
  
 - Computador (==já está pronto! Não precisa mexer==, mas é legal ver!)
@@ -83,13 +72,14 @@ Os módulos estão listados de maneira Top - Down
          - `Dispositivos/PLL/PLL.vhd`: PLL a ser utilizada no projeto (já foi dado pronto)
     
 ---------------------------
+-->
 
 - MemoryIO
     - **Arquivo**   : `MemoryIO.vhd`
     - **Descrição** : Faz o mapa de memória para a CPU.
     - **Dependências** :
-         - `Dispositivos/RAM/RAM16K.vhd` : RAM a ser utilizada no projeto (já foi dado pronto)
-         - `Dispositivos/Screen/Screen.vhd` : Controlador do LCD a ser utilizada no projeto (já foi dado pronto)
+         - `.Dispositivos/RAM16K.vhd` : RAM a ser utilizada no projeto (já foi dado pronto)
+         - `.Dispositivos/Screen.vhd` : Controlador do LCD a ser utilizada no projeto (já foi dado pronto)
     
 ---------------------------
 
@@ -137,7 +127,7 @@ Os módulos estão listados de maneira Top - Down
 |          |                                                                                    |
 | C+       |  Construiu com os módulos do grupo o seu próprio computador                        |
 |          |  Todos os módulos sendo testados no Actions.                                       |
-|          |  Todos os módulos passam nos testes.                                               |
+|          |  Todos os módulos passando nos testes.                                             |
 |          |                                                                                    |
 | B+       |  Adiciona um novo registrador a CPU  (`%S`)                                        |
 |          |  Modifica os testes para testar esse novo recurso!                                 |
@@ -146,9 +136,15 @@ Os módulos estão listados de maneira Top - Down
 |          |  Modifica os testes para testar esse novo recurso!                                 |
 
 
+> O grupo deve avaliar o melhor local para colocar o registrador %S e como fazer o carregamente em %D (Há mais de uma forma).
+
+### Testagem mais completa na próxima APS
+
+Para testar o computador de uma forma mais completa, iremos executar os programas realizados na APS `F-Assembly` no Harware que vocês montaram. 
+
 ### Formulários
-<!-- 
- - [Scrum Master](https://forms.gle/riMh8X9bkSmToxMCA)
- - [Desenvolvedores](https://forms.gle/NnHDz7UVb63zwpm86) -->
+
+- [Scrum Master](https://forms.gle/KGFbHLrSzf26HCs19)
+- [Desenvolvedores](https://forms.gle/1Cq2kS5hWZpnQBqU7)
  
 

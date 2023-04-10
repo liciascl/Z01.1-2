@@ -56,15 +56,9 @@ Podendo ser traduzido para o código em VHDL (via soma dos produtos):
 
 
 !!! example "Implementando e testando"
-    1. Abra o arquivo `/Projetos/F-Computador/src/controlUnit.vhd`
+    1. Abra o arquivo `/Projetos/E-Computador/src/controlUnit.vhd`
     1. Insira a implementação anterior do `loadD` na arquitetura
-    1. Teste com o comando `./testeHW.py` descomentando a respectiva linha em `config_testes.txt`
-       - Deve passar no ==TESTE 1== e ==TESTE 2==
-       - Deve parar para no ==TESTE 3==
-         
-    O resultado deve ser como a seguir:
-    
-    ![](../figs/G-CPU/loadD-teste.png){width=300}
+
 
 ### `loadM`
 
@@ -76,9 +70,7 @@ Vamos agora implementar o sinal `loadM`, esse sinal é o que controla se irá oc
     1. Entenda os bits envolvidos
     1. Escreva uma tabela verdade
     1. Encontre a equação e implemente no `controlUnit.vhd`
-    1. Teste com o comando `./testeHW.py`
-       - Deve passar no ==TESTE 3== e ==TESTE 4==
-       - Deve parar para no ==TESTE 4==
+
          
 ### `loadA`
 
@@ -89,8 +81,7 @@ Agora implemente o `loadA`, esse sinal que controla o load do registrador A.
     1. Escreva uma tabela verdade
     1. Encontre a equação e implemente no `controlUnit.vhd`
     1. Teste com o comando `./testeHW.py`
-       - Deve passar no ==TESTE 5== e ==TESTE 6==
-       - Deve parar para no ==TESTE 7==
+       - Deve passar nos 7 primeiros testes e, então, apresentar erro.
        
 ### `muxALUI_A`
 

@@ -93,9 +93,8 @@ nav:
   - 'Projetos/C-ula.md'
   #- 'Projetos/C-ula-dicas.md'
   - 'Projetos/D-LogSeq.md'
-  - 'E - CPU':
-      - 'Projetos/E-CPU.md'
-      - 'Projetos/E-CPU-Testando.md'
+  - 'Projetos/E-CPU.md'
+  #    - 'Projetos/E-CPU-Testando.md'
   - 'Projetos/F-Assembly.md'
   - 'Projetos/G-Assembler.md'
   - 'Projetos/H-VM.md'
