@@ -22,11 +22,10 @@ Um pouco de contexto: O livro texto (The Elements Of Computer System) disponibil
 
 Percebemos alguns pontos negativos de utilizar um simulador em Java sendo o principal: Qualquer alteração no Hardware iria demandar uma alteração no simulador, sendo necessário mantermos dois projetos independentes e sincronizados.
 
-Nesta versão do curso iremos utilizar um simulador que utiliza o nosso próprio código VHDL como descrição da CPU (e de tudo envolvido), uma alteração no hardware (VHDL) irá automaticamente alterar o simulador e o comportamento do computador. Para isso, fazemos uso do ModelSim, um software da Mentor Graphics que executa simulações em VHDL (o mesmo utilizado nos projetos anteriores), desenvolvemos uma série de APIs e configurações desse simulador para funcionar para a disciplina.
+Nesta versão do curso iremos utilizar um simulador que utiliza o nosso próprio código VHDL como descrição da CPU. 
 
 > As APIS de interface do simulador foram desenvolvidas pelo Prof. Rafael Corsi (vhdl/ tcl/ python) e a interface gráfica pelo Prof. Eduardo Marossi (python/ qt5). 
->
-> De uma olhada na pasta Z01-Tools na sua home, está tudo lá!
+
 
 O simulador possui a estrutura ilustrada a seguir:
 
@@ -38,15 +37,16 @@ Após o término da simulação é exportado diversos sinais internos da CPU, o 
 
 ## Arquivos
 
-O simulador está localizado nas pastas `Z01-tools/` :
+<!-- O simulador está localizado nas pastas `Z01-tools/` :
 
 - `Z01-Simulator-GUI`: Parte gráfica do simulador
-- `Z01-Simulator-RTL`: Hardware a ser executado no modelsim para executar o programa.
+- `Z01-Simulator-RTL`: Hardware a ser executado no modelsim para executar o programa. -->
 
-Para inicializar o simulador basta executar o script localizado na pasta do projeto E:
+Para inicializar o simulador basta entrar no ambiente virtual nasm (criado pelo script do updateZ01-tools) e executar o script, utilizando os comandos a seguir:
 
 ``` bash
-$ python3 E-Assembly/Z01simulador.py
+$ source ~/nasm/bin/activate
+$ bits gui nasm
 ```
 
 ##Interface do Simulador 
@@ -151,7 +151,7 @@ Use o resumo das instruções: [AssemblyZ01](https://insper.github.io/Z01.1/Z01/
     
 ## Script automático de testes
 
-Além da interface gráfica do simulador, possuímos um script de teste automatizado (similar ao do VHDL), esse script: `E-Assembly/testeAssembly.py` compila os códigos que estão na pasta `E-Assembly/src/` para a pasta `E-Assembly/bin/hack` e executa os testes localizados em `E-Assembly/tests/`. Somente os arquivos configurados no `config_testes_nasm.txt` serão testados.
+Além da interface gráfica do simulador, possuímos um script de teste automatizado (similar ao do VHDL), esse script: `F-Assembly/testeAssembly.py` compila os códigos que estão na pasta `F-Assembly/src/` para a pasta `F-Assembly/bin/hack` e executa os testes localizados em `F-Assembly/tests/`. Somente os arquivos configurados no `config_testes_nasm.txt` serão testados.
 
 ### `config_testes_nasm.txt`
 
@@ -170,7 +170,7 @@ Exemplo do `config_testes_nasm.txt`
 
 ### Implementando o add.nasm
 
-Os arquivos a serem implementando estão na pasta `E-Assembly/src/` lá você vai encontrar todos os códigos fontes que deverão ser feitos nesse projeto. 
+Os arquivos a serem implementando estão na pasta `F-Assembly/src/` lá você vai encontrar todos os códigos fontes que deverão ser feitos nesse projeto. 
 
 !!! example "Tarefa"
     Edite o arquivo `add.nasm` realizando a implementação que ele pede no comentário do arquivo (já foi feito nesse lab)

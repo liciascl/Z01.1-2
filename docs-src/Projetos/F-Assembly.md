@@ -2,7 +2,7 @@
 
 | Entrega      |
 |--------------|
-| Quinta - 05/05 |
+| Quinta - 12/05 |
 
 ![Assembly](../figs/F-Assembly/sistema-assembly.svg)
 
@@ -14,7 +14,7 @@ Seguir as instruções a seguir para desenvolvimento do projeto.
 
 ## Entendendo a Organização do Projeto
 
-A pasta do projeto E, no repositório Z01, possui a seguinte estrutura:
+A pasta do projeto F, no repositório Z01, possui a seguinte estrutura:
 
 ```
 F-Assembly/
@@ -22,19 +22,17 @@ F-Assembly/
   Z01simulator.py
   /Quartus
   /src
-      /nasm
-          *.nasm
+      *.nasm
   /tests
-      /tst
-          /abs
-          /add
-          ....
+      /abs
+      /add
+      ....
 ```
 
 1. `Quartus`: Projeto Quartus para gravar o computador na FPGA
 1. `*.py`: Scripts em python que automatizam a execução dos testes;
-1. `src/nasm/*.nasm`: Arquivos ASSEMBLY que serão implementados pelo grupo;
-1. `tests/tst/*`: Arquivos que realizam o teste nos arquivos códigos do rtl.
+1. `src/*.nasm`: Arquivos ASSEMBLY que serão implementados pelo grupo;
+1. `tests/*`: Arquivos que realizam o teste nos arquivos códigos do rtl.
 
 ### Executando o Script de Teste 
 
@@ -44,7 +42,7 @@ Abra o terminal na pasta `F-Assembly/` e execute o script python localizado ness
 $ ./testeAssembly.py
 ```
 
-O mesmo irá compilar os arquivos `src/rtl/*.nasm` e executar os testes unitários em cada um deles. Nesse momento do teste, como os módulos não estão implementados, o resultado deverá ser falho.
+O mesmo irá compilar os arquivos `src/*.nasm` e executar os testes unitários em cada um deles. Nesse momento do teste, como os módulos não estão implementados, o resultado deverá ser falho.
 
 Esse comando executa um teste unitário em cada um dos módulos, verificando se sua implementação está correta. O resultado é exibido na tela como  **pass** ou **fail**.
 
@@ -64,17 +62,17 @@ Deve-se implementar diversos programas na linguagem de máquina do Z01 que irão
 **A descrição de cada módulo está localizada no cabeçalho do arquivo.**
  
 - add
-    - **Arquivo**   : `add.nasm` (==lab 10==)
+    - **Arquivo**   : `add.nasm` (==lab 11==)
 - sub
-    - **Arquivo**   : `sub.nasm` (==lab 10==)
+    - **Arquivo**   : `sub.nasm` (==lab 11==)
 - mov
-    - **Arquivo**   : `mov.nasm` (==lab 10==)           
+    - **Arquivo**   : `mov.nasm` (==lab 11==)           
 - abs
-    - **Arquivo**   : `abs.nasm` (==lab 12==)
+    - **Arquivo**   : `abs.nasm` (==lab 13==)
 - max
-    - **Arquivo**   : `max.nasm` (==lab 12==)
+    - **Arquivo**   : `max.nasm` (==lab 13==)
 - mult
-    - **Arquivo**   : `mult.nasm` (==lab 12==)
+    - **Arquivo**   : `mult.nasm` (==lab 13==)
 - mod
     - **Arquivo**   : `mod.nasm`
 - div
