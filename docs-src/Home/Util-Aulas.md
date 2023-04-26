@@ -118,74 +118,7 @@ Segunda Avaliação Individual - Av2
 
 
 ## Av4 - PF - 02/12
-
-## Aula 30/11
-
-| Estudo prévio                                                                           |
-|-----------------------------------------------------------------------------------------|
-| [VM - jump](/Z01.1/Teoria-vm-jump/)        |
-| [VM - Funções](/Z01.1/Teoria-vm-funcoes/)        |
-
-1. Expositiva/Dúvidas (2h00)
-
-
-## Aula 25/11
-
-| Estudo prévio                                                                           |
-|-----------------------------------------------------------------------------------------|
-| [Linguagem de Máquina Virtual](/Z01.1/Teoria-vm/)        |
-| [VM - Segmentos](/Z01.1/Teoria-vm-segmentos/)        |
-| [VM - Memória](/Z01.1/Teoria-vm-memoria/)        |
-
-1. Expositiva/Dúvidas (1h00)
-
-1. Laboratório (1h00)
-    - [Lab 17: VM](/Z01.1/vm-Lab-1/) (Treinando RPN e VM Z01 - básico)
-    
-    
-## Aula 23/11
-
-| Estudo prévio                                                                           |
-|-----------------------------------------------------------------------------------------|
-| [Assembler - Tabela de símbolos](/Z01.1/assembler-Dicas-SymbolTable/)        |
-
-1. Resolução prova (0h30)
-
-1. Dúvidas/ Expositiva (0h30):
-
-1. Laboratório (1h00)
-    - [Lab 16: Assembler - parte 4](/Z01.1/assembler-Lab-1-parte-4/)
-    - [Lab 16: Assembler - parte 5](/Z01.1/assembler-Lab-1-parte-5/)
-
-
-## Aula 18/11
-
-| Estudo prévio                                                                           |
-|-----------------------------------------------------------------------------------------|
-| [Assembler](/Z01.1/Teoria-Assembler/)        |
-
-   
-1. Revisão/ Dúvidas/ Expositiva (1h00):
-
-1. Laboratório (1h00)
-    - [Lab 16: Assembler](/Z01.1/assembler-Lab-1-parte-3/)
-    
-    
-## Aula 16/11
-
-| Estudo prévio                                                                           |
-|-----------------------------------------------------------------------------------------|
-| [Assembler](/Z01.1/Teoria-Assembler/)       |
-
-1. Expositiva/Dúvidas  (1h20)
-
-1. Laboratório (0h40)
-    - [Lab 16: Assembler](/Z01.1/assembler-Lab-1-parte-1/)
-    
-    
-## 11/11 - Av3
-
-      
+  
     
 ## Aula 19/10
 
@@ -194,11 +127,70 @@ Projeto D-Lógica Sequencial.
 1. Expositiva/ Dúvidas (0h30)
 
 1. Aula estúdio (1h30)
-  
-## Aula 30/09
-
-Segunda Avaliação Individual - Av2
 -->
+
+## Aula 31/05
+
+1. Aula estúdio (2h00)
+
+
+## Aula 26/05
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [VM - jump](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-vm-jump/)       |
+| [VM - Funções](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-vm-funcoes/) |
+
+1. Expositiva/Dúvidas (2h00)
+
+
+## Aula 24/05
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [Linguagem de Máquina Virtual](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-vm/)        |
+| [VM - Segmentos](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-vm-segmentos/)            |
+| [VM - Memória](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-vm-memoria/)                |
+
+1. Expositiva/Dúvidas (1h00)
+
+1. Laboratório (1h00)
+    - [Lab 17: VM](https://insper.github.io/Z01.1/Labs/Lab17-VM/) (Treinando RPN e VM Z01 - básico)
+
+
+## Aula 19/05
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [Assembler](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Assembler/)     |
+| [Assembler](https://insper.github.io/Z01.1/Teoria/assembler-Dicas-SymbolTable/)         |
+
+   
+1. Revisão/ Dúvidas/ Expositiva (1h00):
+
+1. Laboratório (1h00)
+    - [Lab 16: Assembler - parte 4](https://insper.github.io/Z01.1/Labs/Lab16.5-Assembler/)
+    - [Lab 16: Assembler - parte 5](https://insper.github.io/Z01.1/Labs/Lab16.6-Assembler/)
+    
+    
+## Aula 17/05
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [Assembler](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Assembler/)     |
+
+
+1. Expositiva/Dúvidas  (1h00)
+
+1. Laboratório (1h00)
+    - [Lab 16: Assembler](https://insper.github.io/Z01.1/Labs/Lab16.2-Assembler/)
+
+
+
+## Aula 05/05
+
+Terceira Avaliação Individual - Av3
+
 
 ## Aula 03/05
 
