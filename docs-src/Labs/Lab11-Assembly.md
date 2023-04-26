@@ -6,6 +6,8 @@ Ao final desse lab você deve ser capaz de:
 1. Fazer pequenas modificações em um código assembly
 1. Executar script de teste do projeto E - Assembly
 
+> O uso simulador não é orbigatório. Para programar em Assembly, basta editar os aquivos `*.nasm`. Mas, o simulador ajuda a verificar o funcionamento do código e a encontrar eventuais erros.
+
 !!! warning "Antes de começar"
     Toda vez que um novo projeto começar será necessário realizar algumas configurações no repositório do grupo, vocês devem seguir para o documento: [`Util/Começando novo Projeto`](https://insper.github.io/Z01.1/Util/Util-Comecando-novo-projeto/) e depois voltar para esse lab.
 
@@ -42,7 +44,30 @@ Após o término da simulação é exportado diversos sinais internos da CPU, o 
 - `Z01-Simulator-GUI`: Parte gráfica do simulador
 - `Z01-Simulator-RTL`: Hardware a ser executado no modelsim para executar o programa. -->
 
-Para inicializar o simulador basta entrar no ambiente virtual nasm (criado pelo script do updateZ01-tools) e executar o script, utilizando os comandos a seguir:
+Temos dois simuladores na disciplina. A interface gráfica de ambos é praticamente idêntica. O que muda é o software que executa a simulação.
+
+O primeiro simulador roda a simulação no software Modelsim e é executado pelo script:
+
+``` bash
+$ ./Z01simulador.py
+```
+
+> Se o simulador travar sem qualquer razão aparentes, é recomendado rodar o script `updateZ01tools.sh` no terminal:
+``` bash
+$ ./updateZ01tools.sh
+```
+
+O segundo simulador (em fase de implementação na disciplina) utiliza o MyHDL (biblioteca python) para executar a simulação. Para utilizá-lo, é necessário instalá-lo:
+
+1. Primeiro instale o [python venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+1. Faça o download das versões modificadas dos arquivos [`updateZ01tools.sh`](https://github.com/Insper/Z01.1-proj/blob/main/updateZ01tools.sh) e [`requirements.txt`](https://github.com/Insper/Z01.1-proj/blob/main/requirements.txt). 
+1. Rode o script `updateZ01tools.sh` no terminal:
+``` bash
+$ ./updateZ01tools.sh
+```
+> O script deve criar um ambiente virtual e instalar todas as libraries necessárias (indicadas no `requirements.txt`).
+
+Para inicializar o simulador basta entrar no ambiente virtual nasm (criado pelo script do `updateZ01tools.sh`) e executar o script, utilizando os comandos a seguir:
 
 ``` bash
 $ source ~/nasm/bin/activate
