@@ -1,7 +1,7 @@
 # Mundo Real
 
 !!! warning ""
-    Entregar até dia 01/06
+    Entregar até dia 02/06
 
 | HW | SW |
 |----|----|
@@ -30,7 +30,7 @@ Você deverá escolher um dos processadores listados a seguir:
     Não pode repetir dentro do grupo!
     ==DPs: Não pode ser o mesmo do semestre passado==
 
-Vocês devem entregar um vídeo que explica a CPU em questão, neste vídeo (de no máximo 10 minutos) vocês devem explicar:
+Vocês devem entregar um vídeo que explica a CPU em questão, neste vídeo (de aproximadamente 10 minutos) vocês devem explicar:
 
 - Histórico
     - [ ] História da arquitetura
@@ -66,7 +66,7 @@ Você deve pegar um código de exemplo do assembly da CPU escolhida e comentar e
 
 - Explicar o que cada instrução está fazendo
 - O impacto dela no hardware
-- Muitas arquitetura possuem simulador! Interessante usar, mas não é necessário
+- Muitas arquitetura possuem simulador! Interessante usar, mas não é necessário.
 
 <!-- 
 ### Entrega
