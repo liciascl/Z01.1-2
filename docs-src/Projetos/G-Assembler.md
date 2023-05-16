@@ -75,7 +75,7 @@ O projeto no total possui 5 módulos, sendo que o módulo `AssemblerZ01.java` j�
 
 
 ### Formulários
-<!-- 
- - [Scrum Master](https://forms.gle/bAHcrJxVp99L1DYs5)
- - [Desenvolvedores](https://forms.gle/NnHDz7UVb63zwpm86) -->
+
+- [Scrum Master](https://forms.gle/PKkmH5qyAqmGzfGQ8)
+- [Desenvolvedores](https://forms.gle/1Cq2kS5hWZpnQBqU7)
 
