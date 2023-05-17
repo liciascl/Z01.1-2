@@ -12,7 +12,7 @@ Exemplo de um arquivo `.hack`:
 000000000000001011
 ```
 
-> Você pode abrir seus arquivos .hack, basta ir em `E-Assembly/bin/hack/` que vai encontrar seus binários (executáveis).
+> Você pode abrir seus arquivos .hack, basta ir em `F-Assembly/bin/hack/` que vai encontrar seus binários (executáveis).
 
 O arquivo `.hack` é um formato que não conseguimos fazer o download para a FPGA, então é necessário convertemos esse formato em um que o Quartus entenda. Esse formato do Quartus é chamado de `.mif` e é gerado automaticamente pelos scripts de teste, esse arquivo `.mif` é similar ao `.hack` salvo um cabeçalho e a indicação do endereço na qual a linha deve ser salva:
 
