@@ -9,7 +9,7 @@ Iremos realizar o desenvolvimento do Assembler na IDE do Intellij, para isso pre
 
 ![](../figs/H-Assembler/intellij/1.png){width=500}
 
-Importe o arquivo `.mvn` que está dentro da pasta `G-Assebler/Assembler`:
+Importe o arquivo `.xml` que está dentro da pasta `G-Assebler/Assembler`:
 
 ![](../figs/H-Assembler/intellij/2.png){width=500}
 
