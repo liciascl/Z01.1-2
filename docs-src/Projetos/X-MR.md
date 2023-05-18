@@ -68,8 +68,8 @@ Você deve pegar um código de exemplo do assembly da CPU escolhida e comentar e
 - O impacto dela no hardware
 - Muitas arquitetura possuem simulador! Interessante usar, mas não é necessário.
 
-<!-- 
+
 ### Entrega
 
-- [Link para entrega](https://forms.gle/tqPz56A8aCqGP7566) -->
+- [Link para entrega](https://forms.gle/ooNmuxeJsRCxPMs37)
 
