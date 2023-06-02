@@ -1,7 +1,7 @@
 # Mundo Real
 
 !!! warning ""
-    Entregar até dia 02/06
+    Entregar até dia 05/06
 
 | HW | SW |
 |----|----|
