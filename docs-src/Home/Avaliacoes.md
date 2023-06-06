@@ -17,7 +17,7 @@ Liberado consulta ao material da disciplina.
 
 [Prova - Av4 - 21b - Repositório](https://github.com/insper-classroom/21b-ele-av4-teste) - [Resolução](https://github.com/Insper/Z01.1/blob/main/Exercicios/Extras/Av4_21b_resolucao.pdf)
 
-[Prova - Av4 - 22a - Repositório](https://github.com/insper-classroom/22a-ele-av4-teste)
+[Prova - Av4 - 22a - Repositório](https://github.com/insper-classroom/22a-ele-av4-teste) - [Resolução](https://github.com/Insper/Z01.1/blob/main/Exercicios/Extras/Av4_22a_resolucao.pdf)
 
 ## AV3 - sexta 05/05
 
