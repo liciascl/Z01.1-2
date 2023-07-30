@@ -99,7 +99,7 @@ nav:
   - 'Projetos/G-Assembler.md'
   - 'Projetos/H-VM.md'
   #- 'Projetos/I-VMtranslator.md'
-  - 'Projetos/X-MR.md'
+  #- 'Projetos/X-MR.md'
 
 - Labs:
   - 'Labs/Lab1-A-Transistores.md'
@@ -127,9 +127,9 @@ nav:
     - 'Labs/Lab16.5-Assembler.md'
     - 'Labs/Lab16.6-Assembler.md'
   - 'Labs/Lab17-VM.md'
-  - 'Lab 18: VMtranslator':
-    - 'Labs/Lab18.1-VMtranslator.md'
-    - 'Labs/Lab18.2-VMtranslator.md'
+  #- 'Lab 18: VMtranslator':
+  #  - 'Labs/Lab18.1-VMtranslator.md'
+  #  - 'Labs/Lab18.2-VMtranslator.md'
 
 - 'Teoria':
   - 'commum-content/teoria/Teoria-Dados.md'
