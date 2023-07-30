@@ -129,6 +129,7 @@ Projeto D-Lógica Sequencial.
 1. Aula estúdio (1h30)
 -->
 
+<!--
 ## Aula 31/05
 
 1. Aula estúdio (2h00)
@@ -439,13 +440,13 @@ Dúvidas sobre dados digitais.
     - [Dados Digitais 1](https://github.com/Insper/Z01.1/blob/main/Exercicios/Dados_1.pdf)
     - [Dados Digitais 2](https://insper.github.io/Z01.1/Exercicios/Exercicio-Dados-2/)
 
-
-## Aula 08/02
+-->
+## Aula 16/08
 
 Aula de apresentação da matéria; visão geral do que vai ser feito.
 
 1. Slides (1h00):
-    - [Slide](https://github.com/Insper/Z01.1/blob/main/Aulas/01-OrganizacaoDeComputadores.pdf)
+    <!-- - [Slide](https://github.com/Insper/Z01.1/blob/main/Aulas/01-OrganizacaoDeComputadores.pdf) -->
     - [Prezi](https://prezi.com/view/InQMPs4wjxMtznUGlW6L/)
 
 1. Handout/ Estudo/ Exercício (1h00):
