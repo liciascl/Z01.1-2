@@ -1,8 +1,5 @@
 # Introdução
 
-!!! success "2020-2"
-    Material atualizado.
-
 | Estudando        |                                                                                                                                                                                                            |
 | ---------        | --                                                                                                                                                                                                         |
 | Leituras (extra) |                                                                                                                                                                                                            |

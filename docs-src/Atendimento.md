@@ -1,8 +1,5 @@
 # Atendimento
 
-!!! success "2020-2"
-    Material atualizado.
-
 Os atendimentos de aula (individual ou de grupi) serão resolvidos no canal do seu grupo, em atendimento as dúvidas serão tiradas no canal `#Geral`. 
 
 !!! tip 

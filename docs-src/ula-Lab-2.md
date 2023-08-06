@@ -1,8 +1,5 @@
 # Lab 7: Visualizando simulação
 
-!!! success "2022-1"
-    Material atualizado.
-
 <!--
 !!! note "Sugestão"
     1. Realizar o lab individualmente

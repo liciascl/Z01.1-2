@@ -1,20 +1,12 @@
 site_name: 'Elementos de Sistemas'
 theme:
-  name: active-handout
-  features:
-    - navigation.instant
-  palette:
-      primary: 'black'
-      accent: 'pink'
+  name: active-handout-theme
 
 docs_dir: 'docs-src'
-
 site_url: https://insper.github.io/Z01.1/
 edit_uri: 'edit/docs/docs-src/'
-
 repo_name: 'Insper/Z01.1'
 repo_url: 'https://github.com/insper/Z01.1'
-
 copyright: 'Copyright &copy; Rafael Corsi @ insper'
 
 google_analytics:
@@ -22,61 +14,41 @@ google_analytics:
   - auto
 
 extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.0.0/js-yaml.min.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://cdn.jsdelivr.net/gh/insper-education/active-handout-plugins-js@main/package/plugin-bundle.js
 
 plugins:
-  - search
-  - git-revision-date-localized
-  - active-exercises:
-      offering_id: 1
-
-extra:
-  ihandout_config:
-#    calendar: /active-handout/reference/calendar/calendar.yml
-#    counter:
-#      - question
-#      - tip
-#      - exercise
-#      - example
-    report:
-      api-base: https://127.0.0.1:8080/api/offerings/1/
-      url: https://127.0.0.1:8080/api/offerings/1/exercises/
+  - active-handout:
+      telemetry: true
+      backend_url: https://devlife-api.insper-comp.com.br/
+      course_slug: 23b-ele
+  - glightbox
+  - termynal
 
 markdown_extensions:
-  - markdown.extensions.attr_list
   - markdown.extensions.admonition
-  - markdown.extensions.codehilite:
-      guess_lang: false
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
-  - markdown.extensions.toc:
-      permalink: true
-  - pymdownx.arithmatex:
-      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.magiclink
+  - pymdownx.critic:
+      mode: view
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.magiclink:
-      repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
-  - pymdownx.mark
-  - pymdownx.smartsymbols
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+
 
 nav:
 - Home:
@@ -149,7 +121,7 @@ nav:
   - 'commum-content/teoria/Teoria-nasm-jump.md'
   - 'commum-content/teoria/Teoria-Linguagem-de-Maquina.md'
   - 'commum-content/teoria/Teoria-Assembler.md'
-  - 'commum-content/teoria/assembler-Dicas-SymbolTable.md'
+  - 'commum-content/teoria/Teoria-Assembler-SymbolTable.md'
   - 'commum-content/teoria/Teoria-vm.md'
   - 'commum-content/teoria/Teoria-vm-segmentos.md'
   - 'commum-content/teoria/Teoria-vm-jump.md'
@@ -166,10 +138,10 @@ nav:
   - 'VHDL-exemplos.md'
 
 - 'Z01':
-  - 'Resumo Assembly': 'Util-Resumo-Assembly.md'
-  - 'Z01.1 Cheat Sheet': 'Util-Z01.1-Cheat-Sheet.md'
-  - 'Instruction Set': 'Util-InstructionSet.md'
-  - 'Resumo VM': 'Util-Resumo-VM.md'
+  - "Resumo Assembly": "commum-content/z01/z01-Resumo-Assembly.md"
+  - "Z01.1 Cheat Sheet": "commum-content/z01/z01-Cheat-Sheet.md"
+  - "Instruction Set": "commum-content/z01/z01-InstructionSet.md"
+  - "Resumo VM": "commum-content/z01/z01-Resumo-VM.md"
 
 - 'Estudo':
   - 'Dados Digitais - 1': 'https://docs.google.com/spreadsheets/d/1rN_zQqYaVI8PjAhKqEBCmY-_06I0X9dD0RddcI-miJs/edit?usp=sharing'
@@ -189,12 +161,10 @@ nav:
   - 'Exercicio-CPU-2.md'
 
 - Útil:
-  - 'Util-Comecando-novo-projeto.md'
-  - 'Util-vixi-sou-scrum.md'
+  - "commum-content/util/Util-Comecando-novo-projeto.md"
+  - "commum-content/util/Util-vixi-sou-scrum.md"
+  - "commum-content/util/Util-vixi-sou-dev.md"
   - 'Dicas git': 'Util-Dicas-GIT.md'
-  - 'Util-Dicas-Travis.md'
-  - 'Infraestrutura': 'Util-Infraestrutura.md'
-  - 'Util-VM-Linux.md'
 
 - História:
   - 'Historia-linux.md'
