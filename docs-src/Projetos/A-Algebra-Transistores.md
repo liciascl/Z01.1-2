@@ -2,7 +2,7 @@
 
 | Data da entrega| 
 |----------------|
-| Terça  - 05/09 |
+| {{apsA_date}} |
 
 Nesse projeto iremos utilizar a álgebra booleana para obter as funções lógicas de um sistema as quais deverão ser implementadas utilizando CIs.
 

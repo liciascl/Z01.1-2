@@ -24,6 +24,10 @@ plugins:
   - glightbox
   - termynal
 
+extra:
+  custom_variables:
+    apsA_date: 'Terça  - 05/09'
+
 markdown_extensions:
   - markdown.extensions.admonition
   - pymdownx.tasklist:
