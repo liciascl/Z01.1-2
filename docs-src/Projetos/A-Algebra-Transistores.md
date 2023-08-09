@@ -17,8 +17,8 @@ onde y1 e y2 são sinais de saída (de 2 bits cada) para os motores que controla
 
 Os sinais de y1 e y2 (de 2 bits cada) descrevem os seguintes movimentos:
 
-- "10" - motor ligado diretamente (andando para frente)
-- "01" - motor ligado reversamente (andando para trás) 
+- "01" - motor ligado diretamente (andando para frente)
+- "10" - motor ligado reversamente (andando para trás) 
 - "00" - motor desligado
 
 > os sinais y1 e y2 devem ser ligados as entradas I1, I2, I3 e I4 da ponte H.
