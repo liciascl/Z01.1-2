@@ -75,7 +75,7 @@ Liberado consulta ao material da disciplina.
 [Prova - Av2 - 21b](https://github.com/Insper/Z01.1/blob/main/Exercicios/Extras/Prova-Av2_resposta.pdf ) 
 
 -->
-## AV1 - sexta 01/09
+## AV1 - quarta 06/09
 
 - Conteúdos: 
     - Organização de Computadores (visão geral)
