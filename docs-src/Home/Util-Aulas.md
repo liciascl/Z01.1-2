@@ -435,7 +435,7 @@ Dúvidas sobre dados digitais.
 | [Dados digitais](https://insper.github.io/Z01.1/commum-content/teoria/Teoria-Dados/) |
 
 1. Expositiva/ Dúvidas (0h40):
-    <!-- - [Slides](https://github.com/Insper/Z01.1/blob/main/Aulas/02-DadosDigitais.pdf)       -->  
+    - [Slides](https://github.com/Insper/Z01.1/blob/main/Aulas/02-Slides-DadosDigitais.pdf)     
 
 1. Handout/ Exercício (1h20):
     - [Dados Digitais 1](https://github.com/Insper/Z01.1/blob/main/Exercicios/Dados_1.pdf)
